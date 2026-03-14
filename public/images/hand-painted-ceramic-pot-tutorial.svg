@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="50%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FECDD3"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDA4AF"/>
+      <stop offset="30%" stop-color="#FB7185"/>
+      <stop offset="70%" stop-color="#FDA4AF"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="potRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#86EFAC"/>
+      <stop offset="100%" stop-color="#4ADE80"/>
+    </linearGradient>
+    <linearGradient id="leafDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9F1239"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="4" dy="6" stdDeviation="10" flood-color="#9F1239" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Background decorations -->
+  <circle cx="200" cy="150" r="80" fill="#FECDD3" opacity="0.25"/>
+  <circle cx="1000" cy="480" r="100" fill="#FDA4AF" opacity="0.15"/>
+  <circle cx="950" cy="100" r="50" fill="#FECDD3" opacity="0.2"/>
+  <!-- Main pot group -->
+  <g transform="translate(600, 350)" filter="url(#shadow)">
+    <!-- Pot body - rounded shape -->
+    <path d="M-150 0 Q-160 80 -140 160 Q-120 200 0 210 Q120 200 140 160 Q160 80 150 0 Z" fill="url(#pot)"/>
+    <!-- Pot rim -->
+    <ellipse cx="0" cy="0" rx="155" ry="25" fill="url(#potRim)"/>
+    <ellipse cx="0" cy="-5" rx="145" ry="20" fill="#FB7185"/>
+    <!-- Soil -->
+    <ellipse cx="0" cy="-2" rx="138" ry="16" fill="url(#soil)"/>
+    <!-- GEOMETRIC PATTERNS ON POT -->
+    <!-- Row of dots - upper -->
+    <circle cx="-100" cy="50" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="-70" cy="45" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="-40" cy="42" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="-10" cy="40" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="20" cy="40" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="50" cy="42" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="80" cy="45" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <circle cx="110" cy="50" r="6" fill="#FFF1F2" opacity="0.7"/>
+    <!-- Zigzag line -->
+    <polyline points="-120,85 -100,70 -80,85 -60,70 -40,85 -20,70 0,85 20,70 40,85 60,70 80,85 100,70 120,85" fill="none" stroke="#9F1239" stroke-width="3" opacity="0.5"/>
+    <!-- Horizontal lines -->
+    <path d="M-130 110 Q0 100 130 110" fill="none" stroke="#FFF1F2" stroke-width="2.5" opacity="0.6"/>
+    <path d="M-125 125 Q0 115 125 125" fill="none" stroke="#FFF1F2" stroke-width="2.5" opacity="0.6"/>
+    <!-- Row of triangles -->
+    <g opacity="0.5">
+      <polygon points="-100,155 -90,140 -80,155" fill="#9F1239"/>
+      <polygon points="-60,155 -50,140 -40,155" fill="#9F1239"/>
+      <polygon points="-20,155 -10,140 0,155" fill="#9F1239"/>
+      <polygon points="20,155 30,140 40,155" fill="#9F1239"/>
+      <polygon points="60,155 70,140 80,155" fill="#9F1239"/>
+      <polygon points="100,155 110,140 120,155" fill="#9F1239"/>
+    </g>
+    <!-- Small dots - lower -->
+    <circle cx="-90" cy="175" r="4" fill="#FFF1F2" opacity="0.5"/>
+    <circle cx="-50" cy="178" r="4" fill="#FFF1F2" opacity="0.5"/>
+    <circle cx="-10" cy="180" r="4" fill="#FFF1F2" opacity="0.5"/>
+    <circle cx="30" cy="180" r="4" fill="#FFF1F2" opacity="0.5"/>
+    <circle cx="70" cy="178" r="4" fill="#FFF1F2" opacity="0.5"/>
+    <circle cx="100" cy="175" r="4" fill="#FFF1F2" opacity="0.5"/>
+    <!-- Pot highlight/shine -->
+    <path d="M-140 30 Q-135 100 -120 170" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.2" stroke-linecap="round"/>
+  </g>
+  <!-- Plant coming out the top -->
+  <g transform="translate(600, 330)">
+    <!-- Main stem -->
+    <path d="M0 0 Q5 -40 -5 -80 Q-10 -120 0 -160" stroke="url(#stem)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Branch stems -->
+    <path d="M-3 -60 Q-30 -80 -50 -100" stroke="#22C55E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M2 -100 Q30 -110 55 -130" stroke="#22C55E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-2 -130 Q-25 -140 -45 -160" stroke="#22C55E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <!-- Leaf 1 - left -->
+    <path d="M-50 -100 Q-80 -120 -75 -80 Q-70 -65 -50 -100Z" fill="url(#leaf)"/>
+    <line x1="-50" y1="-100" x2="-70" y2="-90" stroke="#22C55E" stroke-width="1" opacity="0.5"/>
+    <!-- Leaf 2 - right -->
+    <path d="M55 -130 Q90 -145 80 -110 Q75 -95 55 -130Z" fill="url(#leafDark)"/>
+    <line x1="55" y1="-130" x2="78" y2="-118" stroke="#16A34A" stroke-width="1" opacity="0.5"/>
+    <!-- Leaf 3 - left upper -->
+    <path d="M-45 -160 Q-80 -180 -70 -145 Q-65 -130 -45 -160Z" fill="url(#leaf)"/>
+    <line x1="-45" y1="-160" x2="-68" y2="-152" stroke="#22C55E" stroke-width="1" opacity="0.5"/>
+    <!-- Leaf 4 - top -->
+    <path d="M0 -160 Q-15 -200 5 -195 Q20 -190 0 -160Z" fill="url(#leafDark)"/>
+    <path d="M0 -160 Q15 -205 -5 -195 Q-15 -188 0 -160Z" fill="url(#leaf)" opacity="0.7"/>
+    <!-- Small leaf - right -->
+    <path d="M15 -50 Q35 -70 30 -45 Q28 -35 15 -50Z" fill="url(#leaf)" opacity="0.8"/>
+  </g>
+</svg>

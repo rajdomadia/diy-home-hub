@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="woodLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Floor -->
+  <rect x="0" y="480" width="1200" height="150" fill="#92400E" opacity="0.15"/>
+  <line x1="0" y1="480" x2="1200" y2="480" stroke="#92400E" stroke-width="2" opacity="0.3"/>
+  <!-- Wall panel background -->
+  <rect x="300" y="80" width="600" height="400" rx="8" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2"/>
+  <!-- Coat hooks on wall -->
+  <g>
+    <!-- Hook bar -->
+    <rect x="380" y="130" width="440" height="12" rx="4" fill="url(#wood)"/>
+    <!-- Hook 1 -->
+    <circle cx="440" cy="136" r="8" fill="none" stroke="#92400E" stroke-width="4"/>
+    <path d="M440 144 L440 170 Q440 180 435 185" stroke="#92400E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Coat on hook 1 -->
+    <path d="M420 175 Q435 165 440 170 Q445 165 460 175 L455 230 L425 230 Z" fill="#D97706" opacity="0.6"/>
+    <!-- Hook 2 -->
+    <circle cx="560" cy="136" r="8" fill="none" stroke="#92400E" stroke-width="4"/>
+    <path d="M560 144 L560 170 Q560 180 555 185" stroke="#92400E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Hook 3 -->
+    <circle cx="680" cy="136" r="8" fill="none" stroke="#92400E" stroke-width="4"/>
+    <path d="M680 144 L680 170 Q680 180 675 185" stroke="#92400E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Coat on hook 3 -->
+    <path d="M660 175 Q675 165 680 170 Q685 165 700 175 L695 240 L665 240 Z" fill="#92400E" opacity="0.5"/>
+  </g>
+  <!-- Bench seat -->
+  <rect x="340" y="310" width="520" height="22" rx="4" fill="url(#wood)"/>
+  <!-- Bench front face -->
+  <rect x="340" y="332" width="520" height="8" fill="#92400E"/>
+  <!-- Storage cubbies -->
+  <!-- Left cubby -->
+  <rect x="350" y="340" width="160" height="130" rx="4" fill="#FFFBEB" stroke="#D97706" stroke-width="3"/>
+  <!-- Cubby divider shelf -->
+  <rect x="350" y="405" width="160" height="3" fill="#D97706"/>
+  <!-- Middle cubby -->
+  <rect x="520" y="340" width="160" height="130" rx="4" fill="#FFFBEB" stroke="#D97706" stroke-width="3"/>
+  <rect x="520" y="405" width="160" height="3" fill="#D97706"/>
+  <!-- Right cubby -->
+  <rect x="690" y="340" width="160" height="130" rx="4" fill="#FFFBEB" stroke="#D97706" stroke-width="3"/>
+  <rect x="690" y="405" width="160" height="3" fill="#D97706"/>
+  <!-- Items in cubbies -->
+  <!-- Basket in left cubby top -->
+  <rect x="365" y="355" width="130" height="45" rx="8" fill="#FCD34D" stroke="#D97706" stroke-width="2"/>
+  <line x1="375" y1="365" x2="485" y2="365" stroke="#D97706" stroke-width="1" opacity="0.5"/>
+  <line x1="375" y1="375" x2="485" y2="375" stroke="#D97706" stroke-width="1" opacity="0.5"/>
+  <line x1="375" y1="385" x2="485" y2="385" stroke="#D97706" stroke-width="1" opacity="0.5"/>
+  <!-- Shoes in middle cubby bottom -->
+  <ellipse cx="570" cy="455" rx="25" ry="12" fill="#92400E" opacity="0.7"/>
+  <ellipse cx="620" cy="455" rx="25" ry="12" fill="#92400E" opacity="0.6"/>
+  <!-- Bench legs -->
+  <rect x="345" y="470" width="12" height="15" rx="2" fill="#92400E"/>
+  <rect x="843" y="470" width="12" height="15" rx="2" fill="#92400E"/>
+  <!-- Boots beside bench (left side) -->
+  <g transform="translate(240, 420)">
+    <!-- Left boot -->
+    <path d="M0 60 L0 15 Q0 0 15 0 L30 0 Q40 0 40 15 L40 60 L50 60 L50 70 Q50 75 45 75 L-5 75 Q-10 75 -10 70 L-10 60 Z" fill="#92400E"/>
+    <rect x="0" y="0" width="40" height="8" rx="3" fill="#D97706"/>
+    <!-- Right boot -->
+    <path d="M55 60 L55 20 Q55 5 70 5 L85 5 Q95 5 95 20 L95 60 L105 60 L105 70 Q105 75 100 75 L50 75 Q45 75 45 70 L45 60 Z" fill="#92400E" opacity="0.85"/>
+    <rect x="55" y="5" width="40" height="8" rx="3" fill="#D97706" opacity="0.85"/>
+  </g>
+  <!-- Cushion on bench -->
+  <rect x="355" y="295" width="490" height="18" rx="8" fill="#FCD34D" opacity="0.7"/>
+  <!-- Subtle shadow under bench -->
+  <ellipse cx="600" cy="490" rx="260" ry="8" fill="#92400E" opacity="0.1"/>
+</svg>

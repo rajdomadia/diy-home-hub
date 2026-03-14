@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="50%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg8)"/>
+
+  <!-- Ground -->
+  <ellipse cx="600" cy="560" rx="500" ry="40" fill="#059669" opacity="0.15"/>
+  <path d="M100 555 Q600 535, 1100 555 L1100 630 L100 630Z" fill="#065F46" opacity="0.1"/>
+
+  <!-- Tree trunk -->
+  <rect x="560" y="300" width="50" height="260" rx="8" fill="url(#trunk)"/>
+  <!-- Trunk texture -->
+  <path d="M570 350 C575 345, 580 350, 585 345" stroke="#451A03" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M568 420 C575 415, 582 420, 590 415" stroke="#451A03" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M572 490 C578 485, 584 490, 592 485" stroke="#451A03" stroke-width="1" fill="none" opacity="0.3"/>
+
+  <!-- Main branches -->
+  <!-- Left main branch -->
+  <path d="M575 320 C540 280, 450 260, 350 230" stroke="#92400E" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <!-- Right main branch -->
+  <path d="M595 310 C630 270, 720 250, 830 220" stroke="#92400E" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <!-- Upper center branch -->
+  <path d="M585 310 C585 250, 580 200, 590 150" stroke="#92400E" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <!-- Secondary branches -->
+  <!-- Left sub-branches -->
+  <path d="M430 250 C410 220, 380 200, 340 180" stroke="#78350F" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M470 260 C450 230, 440 210, 420 170" stroke="#78350F" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M380 240 C360 260, 320 270, 280 280" stroke="#78350F" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Right sub-branches -->
+  <path d="M760 240 C780 210, 810 190, 850 170" stroke="#78350F" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M720 245 C740 220, 750 200, 770 170" stroke="#78350F" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M800 230 C830 250, 860 260, 900 270" stroke="#78350F" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Top sub-branches -->
+  <path d="M588 200 C560 170, 540 150, 510 130" stroke="#78350F" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M590 190 C620 160, 650 150, 680 130" stroke="#78350F" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Branch to be pruned (highlighted) -->
+  <path d="M810 230 C840 240, 870 230, 920 240" stroke="#78350F" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Dotted cutting lines -->
+  <!-- Cut line 1 - on the problematic branch -->
+  <line x1="830" y1="215" x2="830" y2="255" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Cut line 2 -->
+  <line x1="290" y1="265" x2="290" y2="300" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Cut line 3 -->
+  <line x1="590" y1="175" x2="590" y2="210" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- Small red X marks at cut points -->
+  <g transform="translate(830, 235)" opacity="0.7">
+    <line x1="-6" y1="-6" x2="6" y2="6" stroke="#DC2626" stroke-width="2.5"/>
+    <line x1="6" y1="-6" x2="-6" y2="6" stroke="#DC2626" stroke-width="2.5"/>
+  </g>
+
+  <!-- Leaves throughout the canopy -->
+  <!-- Left area leaves -->
+  <ellipse cx="330" cy="175" rx="16" ry="10" fill="#34D399" transform="rotate(-20, 330, 175)"/>
+  <ellipse cx="350" cy="165" rx="14" ry="9" fill="#6EE7B7" transform="rotate(10, 350, 165)"/>
+  <ellipse cx="310" cy="185" rx="13" ry="8" fill="#059669" transform="rotate(-30, 310, 185)"/>
+  <ellipse cx="415" cy="165" rx="15" ry="9" fill="#34D399" transform="rotate(15, 415, 165)"/>
+  <ellipse cx="430" cy="155" rx="13" ry="8" fill="#6EE7B7" transform="rotate(-10, 430, 155)"/>
+  <ellipse cx="280" cy="268" rx="14" ry="9" fill="#059669" transform="rotate(-25, 280, 268)"/>
+  <ellipse cx="260" cy="275" rx="12" ry="7" fill="#34D399" transform="rotate(15, 260, 275)"/>
+  <ellipse cx="300" cy="280" rx="13" ry="8" fill="#6EE7B7" transform="rotate(-10, 300, 280)"/>
+
+  <!-- Right area leaves -->
+  <ellipse cx="850" cy="165" rx="16" ry="10" fill="#6EE7B7" transform="rotate(20, 850, 165)"/>
+  <ellipse cx="830" cy="155" rx="14" ry="9" fill="#34D399" transform="rotate(-10, 830, 155)"/>
+  <ellipse cx="870" cy="175" rx="13" ry="8" fill="#059669" transform="rotate(30, 870, 175)"/>
+  <ellipse cx="770" cy="160" rx="15" ry="9" fill="#34D399" transform="rotate(-15, 770, 160)"/>
+  <ellipse cx="755" cy="170" rx="13" ry="8" fill="#6EE7B7" transform="rotate(10, 755, 170)"/>
+  <ellipse cx="900" cy="260" rx="14" ry="9" fill="#059669" transform="rotate(25, 900, 260)"/>
+  <ellipse cx="920" cy="268" rx="12" ry="7" fill="#34D399" transform="rotate(-15, 920, 268)"/>
+
+  <!-- Top area leaves -->
+  <ellipse cx="510" cy="120" rx="15" ry="9" fill="#34D399" transform="rotate(-15, 510, 120)"/>
+  <ellipse cx="495" cy="130" rx="13" ry="8" fill="#6EE7B7" transform="rotate(10, 495, 130)"/>
+  <ellipse cx="680" cy="120" rx="15" ry="9" fill="#059669" transform="rotate(15, 680, 120)"/>
+  <ellipse cx="695" cy="130" rx="13" ry="8" fill="#34D399" transform="rotate(-10, 695, 130)"/>
+  <ellipse cx="585" cy="135" rx="14" ry="8" fill="#6EE7B7"/>
+  <ellipse cx="600" cy="142" rx="12" ry="7" fill="#34D399" transform="rotate(5, 600, 142)"/>
+
+  <!-- Fruits (apples) -->
+  <circle cx="370" cy="195" r="12" fill="#EF4444" opacity="0.85"/>
+  <circle cx="370" cy="192" r="3" fill="#DC2626"/>
+  <rect x="369" y="180" width="2" height="8" fill="#78350F"/>
+
+  <circle cx="440" cy="180" r="11" fill="#EF4444" opacity="0.8"/>
+  <circle cx="440" cy="178" r="2.5" fill="#DC2626"/>
+  <rect x="439" y="167" width="2" height="8" fill="#78350F"/>
+
+  <circle cx="780" cy="185" r="12" fill="#EF4444" opacity="0.85"/>
+  <circle cx="780" cy="182" r="3" fill="#DC2626"/>
+  <rect x="779" y="170" width="2" height="8" fill="#78350F"/>
+
+  <circle cx="860" cy="195" r="10" fill="#F87171" opacity="0.8"/>
+  <circle cx="860" cy="193" r="2.5" fill="#EF4444"/>
+  <rect x="859" y="183" width="2" height="7" fill="#78350F"/>
+
+  <circle cx="590" cy="160" r="11" fill="#EF4444" opacity="0.85"/>
+  <circle cx="590" cy="158" r="2.5" fill="#DC2626"/>
+  <rect x="589" y="147" width="2" height="8" fill="#78350F"/>
+
+  <!-- Pruning shears -->
+  <g transform="translate(920, 200) rotate(25)">
+    <!-- Handle 1 -->
+    <rect x="5" y="20" width="14" height="70" rx="5" fill="#DC2626" opacity="0.85"/>
+    <!-- Handle 2 -->
+    <rect x="-19" y="20" width="14" height="70" rx="5" fill="#DC2626" opacity="0.85"/>
+    <!-- Handle grips -->
+    <rect x="6" y="50" width="12" height="30" rx="4" fill="#B91C1C"/>
+    <rect x="-18" y="50" width="12" height="30" rx="4" fill="#B91C1C"/>
+    <!-- Pivot point -->
+    <circle cx="0" cy="25" r="6" fill="#78716C"/>
+    <circle cx="0" cy="25" r="3" fill="#A8A29E"/>
+    <!-- Blade 1 -->
+    <path d="M6 25 C10 15, 12 5, 8 -15 C6 -25, 2 -30, 0 -30 L0 25Z" fill="#D6D3D1"/>
+    <!-- Blade 2 (hook) -->
+    <path d="M-6 25 C-8 18, -10 10, -6 0 C-3 -8, 0 -10, 0 -10 L0 25Z" fill="#A8A29E"/>
+    <!-- Blade edge highlight -->
+    <path d="M4 20 C8 10, 10 0, 6 -15" stroke="white" stroke-width="1" fill="none" opacity="0.4"/>
+  </g>
+
+  <!-- Cut branch pieces on ground -->
+  <path d="M750 545 L810 540" stroke="#78350F" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  <path d="M770 550 L800 555" stroke="#92400E" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <ellipse cx="790" cy="540" rx="10" ry="6" fill="#34D399" opacity="0.4"/>
+  <ellipse cx="810" cy="545" rx="8" ry="5" fill="#6EE7B7" opacity="0.3"/>
+
+  <!-- Grass tufts at base -->
+  <path d="M500 555 C503 535, 508 540, 511 555" stroke="#34D399" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M680 555 C683 540, 688 545, 691 555" stroke="#059669" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

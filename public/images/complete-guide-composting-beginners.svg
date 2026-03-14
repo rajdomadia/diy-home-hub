@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#92400E"/>
+      <stop offset="50%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+  <!-- Ground shadow -->
+  <ellipse cx="600" cy="530" rx="320" ry="30" fill="#059669" opacity="0.15"/>
+  <!-- Compost bin - back wall -->
+  <rect x="360" y="160" width="480" height="370" rx="4" fill="#92400E"/>
+  <!-- Bin front panel left -->
+  <rect x="360" y="160" width="12" height="370" fill="#78350F"/>
+  <!-- Bin front panel right -->
+  <rect x="828" y="160" width="12" height="370" fill="#78350F"/>
+  <!-- Wood slat lines -->
+  <line x1="372" y1="210" x2="828" y2="210" stroke="#78350F" stroke-width="2" opacity="0.5"/>
+  <line x1="372" y1="260" x2="828" y2="260" stroke="#78350F" stroke-width="2" opacity="0.5"/>
+  <line x1="372" y1="310" x2="828" y2="310" stroke="#78350F" stroke-width="2" opacity="0.5"/>
+  <line x1="372" y1="360" x2="828" y2="360" stroke="#78350F" stroke-width="2" opacity="0.5"/>
+  <line x1="372" y1="410" x2="828" y2="410" stroke="#78350F" stroke-width="2" opacity="0.5"/>
+  <line x1="372" y1="460" x2="828" y2="460" stroke="#78350F" stroke-width="2" opacity="0.5"/>
+  <!-- Corner posts -->
+  <rect x="355" y="155" width="22" height="380" rx="3" fill="#78350F"/>
+  <rect x="823" y="155" width="22" height="380" rx="3" fill="#78350F"/>
+  <!-- Compost layers inside -->
+  <!-- Bottom dark soil layer -->
+  <rect x="377" y="440" width="446" height="85" fill="#3F2305" opacity="0.8"/>
+  <!-- Brown layer (dried leaves) -->
+  <rect x="377" y="390" width="446" height="50" fill="#854D0E" opacity="0.7"/>
+  <!-- Green layer (fresh materials) -->
+  <rect x="377" y="340" width="446" height="50" fill="#065F46" opacity="0.6"/>
+  <!-- Brown layer -->
+  <rect x="377" y="290" width="446" height="50" fill="#92400E" opacity="0.5"/>
+  <!-- Top fresh green layer -->
+  <rect x="377" y="240" width="446" height="50" fill="#047857" opacity="0.5"/>
+  <!-- Compost heap at top -->
+  <path d="M377 240 C400 200, 500 180, 600 175 C700 180, 800 200, 823 240 Z" fill="#3F2305" opacity="0.6"/>
+  <!-- Falling leaf 1 -->
+  <g transform="translate(310, 200) rotate(-20)">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#059669"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#047857" stroke-width="1.5"/>
+    <line x1="0" y1="-10" x2="5" y2="5" stroke="#047857" stroke-width="1"/>
+    <line x1="-8" y1="-8" x2="-3" y2="3" stroke="#047857" stroke-width="1"/>
+  </g>
+  <!-- Falling leaf 2 -->
+  <g transform="translate(280, 300) rotate(15)">
+    <ellipse cx="0" cy="0" rx="22" ry="13" fill="#6EE7B7"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#34D399" stroke-width="1.5"/>
+  </g>
+  <!-- Falling leaf 3 -->
+  <g transform="translate(900, 220) rotate(25)">
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="#34D399"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#059669" stroke-width="1.5"/>
+  </g>
+  <!-- Falling apple core -->
+  <g transform="translate(870, 330)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#FDE68A"/>
+    <ellipse cx="0" cy="0" rx="10" ry="14" fill="#FEF3C7"/>
+    <circle cx="-3" cy="-4" r="2" fill="#92400E"/>
+    <circle cx="3" cy="2" r="2" fill="#92400E"/>
+    <rect x="-1.5" y="-22" width="3" height="10" rx="1.5" fill="#78350F"/>
+  </g>
+  <!-- Falling banana peel -->
+  <g transform="translate(330, 380) rotate(-10)">
+    <path d="M-15 0 C-10 -12, 5 -15, 15 -8 C20 -4, 18 5, 12 8 C5 3, -5 5, -15 0Z" fill="#FCD34D"/>
+    <path d="M-12 0 C-8 -8, 3 -10, 10 -5" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- Eggshell pieces -->
+  <g transform="translate(880, 270)">
+    <path d="M-8 5 C-8 -5, 0 -12, 0 -12 C0 -12, 8 -5, 8 5 Z" fill="#FEF3C7" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M-6 -3 L0 -8 L6 -3" stroke="#E5E7EB" stroke-width="1" fill="none"/>
+  </g>
+  <!-- Steam/decomposition wisps -->
+  <path d="M500 170 C495 150, 510 140, 505 120" stroke="#6EE7B7" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M560 165 C555 145, 570 135, 565 115" stroke="#6EE7B7" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M620 168 C615 148, 630 138, 625 118" stroke="#6EE7B7" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M680 172 C675 152, 690 142, 685 122" stroke="#6EE7B7" stroke-width="2" fill="none" opacity="0.3"/>
+  <!-- Worms in compost (visible through front) -->
+  <path d="M450 470 C460 465, 470 475, 480 470" stroke="#DC8A78" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M550 490 C560 485, 570 495, 580 490" stroke="#DC8A78" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M680 480 C690 475, 700 485, 710 478" stroke="#DC8A78" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Small pile of leaves on ground -->
+  <ellipse cx="200" cy="520" rx="60" ry="20" fill="#059669" opacity="0.3"/>
+  <ellipse cx="190" cy="510" rx="18" ry="10" fill="#6EE7B7" transform="rotate(-15, 190, 510)"/>
+  <ellipse cx="215" cy="505" rx="15" ry="9" fill="#34D399" transform="rotate(20, 215, 505)"/>
+  <ellipse cx="195" cy="500" rx="14" ry="8" fill="#A7F3D0" transform="rotate(-10, 195, 500)"/>
+  <!-- Arrow showing materials going in -->
+  <path d="M300 250 C330 230, 350 225, 370 230" stroke="#059669" stroke-width="3" fill="none" stroke-dasharray="8,4"/>
+  <polygon points="370,225 380,232 370,238" fill="#059669"/>
+</svg>

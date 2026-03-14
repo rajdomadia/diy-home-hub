@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="80%" stop-color="#D1FAE5"/>
+      <stop offset="100%" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <linearGradient id="bambooStick" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#065F46"/>
+      <stop offset="40%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#065F46"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg7)"/>
+
+  <!-- Ground -->
+  <ellipse cx="600" cy="550" rx="450" ry="40" fill="#065F46" opacity="0.15"/>
+  <path d="M150 540 Q600 520, 1050 540 L1050 630 L150 630Z" fill="#78350F" opacity="0.2"/>
+
+  <!-- Teepee poles -->
+  <!-- Pole 1 (left) -->
+  <rect x="345" y="80" width="14" height="470" rx="7" fill="url(#bambooStick)" transform="rotate(-15, 352, 540)"/>
+  <!-- Pole 2 (center-left) -->
+  <rect x="445" y="80" width="14" height="470" rx="7" fill="url(#bambooStick)" transform="rotate(-7, 452, 540)"/>
+  <!-- Pole 3 (center) -->
+  <rect x="593" y="80" width="14" height="470" rx="7" fill="url(#bambooStick)"/>
+  <!-- Pole 4 (center-right) -->
+  <rect x="741" y="80" width="14" height="470" rx="7" fill="url(#bambooStick)" transform="rotate(7, 748, 540)"/>
+  <!-- Pole 5 (right) -->
+  <rect x="841" y="80" width="14" height="470" rx="7" fill="url(#bambooStick)" transform="rotate(15, 848, 540)"/>
+
+  <!-- Bamboo nodes -->
+  <!-- Pole 1 nodes -->
+  <ellipse cx="340" cy="250" rx="10" ry="4" fill="#047857" opacity="0.5" transform="rotate(-15, 352, 540)"/>
+  <ellipse cx="340" cy="370" rx="10" ry="4" fill="#047857" opacity="0.5" transform="rotate(-15, 352, 540)"/>
+  <!-- Pole 3 nodes -->
+  <ellipse cx="600" cy="230" rx="10" ry="4" fill="#047857" opacity="0.5"/>
+  <ellipse cx="600" cy="350" rx="10" ry="4" fill="#047857" opacity="0.5"/>
+  <!-- Pole 5 nodes -->
+  <ellipse cx="855" cy="250" rx="10" ry="4" fill="#047857" opacity="0.5" transform="rotate(15, 848, 540)"/>
+  <ellipse cx="855" cy="370" rx="10" ry="4" fill="#047857" opacity="0.5" transform="rotate(15, 848, 540)"/>
+
+  <!-- Tie/binding at top -->
+  <circle cx="600" cy="105" r="25" fill="#92400E" opacity="0.7"/>
+  <circle cx="600" cy="105" r="18" fill="#B45309" opacity="0.6"/>
+  <!-- Twine wrapping -->
+  <path d="M582 100 C585 90, 615 90, 618 100" stroke="#D97706" stroke-width="3" fill="none"/>
+  <path d="M580 105 C583 115, 617 115, 620 105" stroke="#D97706" stroke-width="3" fill="none"/>
+  <path d="M584 95 C590 88, 610 88, 616 95" stroke="#B45309" stroke-width="2" fill="none"/>
+
+  <!-- Bean vines climbing poles -->
+  <!-- Vine on pole 1 -->
+  <path d="M325 530 C315 490, 340 470, 320 430 C300 390, 340 370, 315 330 C300 300, 330 280, 310 250" stroke="#059669" stroke-width="2.5" fill="none"/>
+  <ellipse cx="310" cy="430" rx="16" ry="10" fill="#34D399" transform="rotate(-30, 310, 430)"/>
+  <ellipse cx="330" cy="400" rx="14" ry="9" fill="#6EE7B7" transform="rotate(15, 330, 400)"/>
+  <ellipse cx="305" cy="350" rx="15" ry="9" fill="#059669" transform="rotate(-25, 305, 350)"/>
+  <ellipse cx="325" cy="320" rx="13" ry="8" fill="#34D399" transform="rotate(20, 325, 320)"/>
+  <ellipse cx="308" cy="270" rx="14" ry="8" fill="#6EE7B7" transform="rotate(-15, 308, 270)"/>
+  <ellipse cx="315" cy="480" rx="13" ry="8" fill="#34D399" transform="rotate(-20, 315, 480)"/>
+
+  <!-- Vine on pole 2 -->
+  <path d="M445 530 C435 490, 455 465, 440 425 C425 385, 455 355, 440 315 C430 290, 450 270, 442 240" stroke="#047857" stroke-width="2.5" fill="none"/>
+  <ellipse cx="435" cy="425" rx="15" ry="9" fill="#6EE7B7" transform="rotate(-20, 435, 425)"/>
+  <ellipse cx="455" cy="395" rx="13" ry="8" fill="#34D399" transform="rotate(15, 455, 395)"/>
+  <ellipse cx="435" cy="340" rx="14" ry="8" fill="#059669" transform="rotate(-25, 435, 340)"/>
+  <ellipse cx="450" cy="300" rx="12" ry="7" fill="#6EE7B7" transform="rotate(10, 450, 300)"/>
+  <ellipse cx="440" cy="260" rx="12" ry="7" fill="#34D399" transform="rotate(-15, 440, 260)"/>
+  <ellipse cx="445" cy="470" rx="12" ry="7" fill="#6EE7B7" transform="rotate(20, 445, 470)"/>
+
+  <!-- Vine on center pole -->
+  <path d="M600 530 C590 490, 610 460, 595 420 C580 380, 610 350, 595 310 C585 280, 605 260, 598 230" stroke="#059669" stroke-width="2.5" fill="none"/>
+  <ellipse cx="590" cy="420" rx="15" ry="9" fill="#34D399" transform="rotate(-15, 590, 420)"/>
+  <ellipse cx="610" cy="390" rx="14" ry="8" fill="#6EE7B7" transform="rotate(20, 610, 390)"/>
+  <ellipse cx="588" cy="340" rx="15" ry="9" fill="#059669" transform="rotate(-20, 588, 340)"/>
+  <ellipse cx="608" cy="310" rx="13" ry="8" fill="#34D399" transform="rotate(15, 608, 310)"/>
+  <ellipse cx="593" cy="260" rx="13" ry="7" fill="#6EE7B7" transform="rotate(-10, 593, 260)"/>
+  <ellipse cx="598" cy="470" rx="14" ry="8" fill="#059669" transform="rotate(10, 598, 470)"/>
+
+  <!-- Vine on pole 4 -->
+  <path d="M755 530 C765 490, 745 465, 760 425 C775 385, 745 355, 760 315 C770 290, 750 265, 758 240" stroke="#047857" stroke-width="2.5" fill="none"/>
+  <ellipse cx="765" cy="425" rx="15" ry="9" fill="#6EE7B7" transform="rotate(20, 765, 425)"/>
+  <ellipse cx="745" cy="395" rx="13" ry="8" fill="#34D399" transform="rotate(-15, 745, 395)"/>
+  <ellipse cx="765" cy="340" rx="14" ry="8" fill="#059669" transform="rotate(25, 765, 340)"/>
+  <ellipse cx="750" cy="300" rx="12" ry="7" fill="#6EE7B7" transform="rotate(-10, 750, 300)"/>
+  <ellipse cx="758" cy="260" rx="12" ry="7" fill="#34D399" transform="rotate(15, 758, 260)"/>
+  <ellipse cx="755" cy="470" rx="12" ry="7" fill="#34D399" transform="rotate(-20, 755, 470)"/>
+
+  <!-- Vine on pole 5 -->
+  <path d="M875 530 C885 490, 860 470, 880 430 C900 390, 860 370, 885 330 C900 300, 870 280, 890 250" stroke="#059669" stroke-width="2.5" fill="none"/>
+  <ellipse cx="890" cy="430" rx="16" ry="10" fill="#34D399" transform="rotate(30, 890, 430)"/>
+  <ellipse cx="870" cy="400" rx="14" ry="9" fill="#6EE7B7" transform="rotate(-15, 870, 400)"/>
+  <ellipse cx="895" cy="350" rx="15" ry="9" fill="#059669" transform="rotate(25, 895, 350)"/>
+  <ellipse cx="875" cy="320" rx="13" ry="8" fill="#34D399" transform="rotate(-20, 875, 320)"/>
+  <ellipse cx="892" cy="270" rx="14" ry="8" fill="#6EE7B7" transform="rotate(15, 892, 270)"/>
+  <ellipse cx="885" cy="480" rx="13" ry="8" fill="#6EE7B7" transform="rotate(20, 885, 480)"/>
+
+  <!-- Bean pods -->
+  <path d="M315 385 C312 375, 320 370, 318 380" stroke="#065F46" stroke-width="3" fill="#059669" opacity="0.7"/>
+  <path d="M455 380 C452 370, 460 365, 458 375" stroke="#065F46" stroke-width="3" fill="#059669" opacity="0.7"/>
+  <path d="M600 375 C597 365, 605 360, 603 370" stroke="#065F46" stroke-width="3" fill="#059669" opacity="0.7"/>
+  <path d="M750 380 C747 370, 755 365, 753 375" stroke="#065F46" stroke-width="3" fill="#059669" opacity="0.7"/>
+  <path d="M880 385 C877 375, 885 370, 883 380" stroke="#065F46" stroke-width="3" fill="#059669" opacity="0.7"/>
+
+  <!-- Small bean flowers -->
+  <circle cx="335" cy="310" r="4" fill="#FDE68A" opacity="0.7"/>
+  <circle cx="610" cy="300" r="4" fill="#FDE68A" opacity="0.7"/>
+  <circle cx="875" cy="310" r="4" fill="#FDE68A" opacity="0.7"/>
+
+  <!-- Ground plants/grass -->
+  <path d="M200 545 C205 525, 210 530, 215 545" stroke="#34D399" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M210 545 C215 530, 220 535, 225 545" stroke="#059669" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M980 545 C985 525, 990 530, 995 545" stroke="#34D399" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M990 545 C995 530, 1000 535, 1005 545" stroke="#059669" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

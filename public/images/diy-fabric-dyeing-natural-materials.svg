@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="50%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FECDD3"/>
+    </linearGradient>
+    <radialGradient id="tiedye1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#9F1239"/>
+      <stop offset="30%" stop-color="#F43F5E"/>
+      <stop offset="55%" stop-color="#FDA4AF"/>
+      <stop offset="75%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FFF1F2"/>
+    </radialGradient>
+    <radialGradient id="tiedye2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#BE123C"/>
+      <stop offset="25%" stop-color="#E11D48"/>
+      <stop offset="50%" stop-color="#FB7185"/>
+      <stop offset="70%" stop-color="#FECDD3"/>
+      <stop offset="100%" stop-color="#FFF1F2"/>
+    </radialGradient>
+    <radialGradient id="tiedye3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#881337"/>
+      <stop offset="35%" stop-color="#9F1239"/>
+      <stop offset="60%" stop-color="#F43F5E"/>
+      <stop offset="80%" stop-color="#FDA4AF"/>
+      <stop offset="100%" stop-color="#FFE4E6"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9F1239"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#9F1239"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="3" dy="5" stdDeviation="8" flood-color="#9F1239" flood-opacity="0.15"/>
+    </filter>
+    <clipPath id="fabricClip">
+      <path d="M350 100 Q500 80 650 110 Q750 130 850 100 Q870 140 860 250 Q870 350 850 430 Q800 450 700 440 Q600 460 500 440 Q400 450 350 430 Q330 350 340 250 Q330 150 350 100Z"/>
+    </clipPath>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Subtle background elements -->
+  <circle cx="100" cy="300" r="120" fill="#FECDD3" opacity="0.2"/>
+  <circle cx="1100" cy="150" r="90" fill="#FDA4AF" opacity="0.15"/>
+  <!-- Draped fabric -->
+  <g filter="url(#shadow)">
+    <!-- Fabric base shape -->
+    <path d="M350 100 Q500 80 650 110 Q750 130 850 100 Q870 140 860 250 Q870 350 850 430 Q800 450 700 440 Q600 460 500 440 Q400 450 350 430 Q330 350 340 250 Q330 150 350 100Z" fill="#FFF1F2"/>
+    <!-- Tie-dye circles clipped to fabric -->
+    <g clip-path="url(#fabricClip)">
+      <!-- Large tie-dye circle 1 -->
+      <circle cx="500" cy="220" r="130" fill="url(#tiedye1)" opacity="0.85"/>
+      <!-- Large tie-dye circle 2 -->
+      <circle cx="700" cy="300" r="110" fill="url(#tiedye2)" opacity="0.8"/>
+      <!-- Smaller tie-dye circle 3 -->
+      <circle cx="450" cy="380" r="80" fill="url(#tiedye3)" opacity="0.75"/>
+      <!-- Extra small accent circles -->
+      <circle cx="750" cy="160" r="50" fill="url(#tiedye1)" opacity="0.5"/>
+      <circle cx="380" cy="150" r="45" fill="url(#tiedye2)" opacity="0.4"/>
+      <!-- Ring patterns within tie-dye -->
+      <circle cx="500" cy="220" r="60" fill="none" stroke="#FFF1F2" stroke-width="2" opacity="0.3"/>
+      <circle cx="500" cy="220" r="90" fill="none" stroke="#FFE4E6" stroke-width="1.5" opacity="0.25"/>
+      <circle cx="700" cy="300" r="45" fill="none" stroke="#FFF1F2" stroke-width="2" opacity="0.3"/>
+      <circle cx="700" cy="300" r="75" fill="none" stroke="#FFE4E6" stroke-width="1.5" opacity="0.25"/>
+      <circle cx="450" cy="380" r="35" fill="none" stroke="#FFF1F2" stroke-width="1.5" opacity="0.3"/>
+    </g>
+    <!-- Fabric edge/fold lines -->
+    <path d="M350 100 Q500 80 650 110 Q750 130 850 100" fill="none" stroke="#FDA4AF" stroke-width="2" opacity="0.4"/>
+    <path d="M360 120 Q500 105 640 125 Q740 142 845 118" fill="none" stroke="#FECDD3" stroke-width="1" opacity="0.3"/>
+    <!-- Drape fold lines -->
+    <path d="M400 100 Q410 200 420 300 Q415 380 400 430" fill="none" stroke="#FDA4AF" stroke-width="1" opacity="0.2"/>
+    <path d="M600 105 Q595 200 598 300 Q600 380 595 445" fill="none" stroke="#FDA4AF" stroke-width="1" opacity="0.2"/>
+    <path d="M780 110 Q785 200 780 300 Q775 380 770 435" fill="none" stroke="#FDA4AF" stroke-width="1" opacity="0.2"/>
+  </g>
+  <!-- Dye bowl -->
+  <g transform="translate(950, 420)" filter="url(#shadow)">
+    <!-- Bowl body -->
+    <ellipse cx="0" cy="0" rx="100" ry="55" fill="url(#bowl)"/>
+    <!-- Bowl rim -->
+    <ellipse cx="0" cy="-15" rx="100" ry="40" fill="#BE123C"/>
+    <ellipse cx="0" cy="-15" rx="92" ry="35" fill="url(#liquid)"/>
+    <!-- Liquid surface shine -->
+    <ellipse cx="-20" cy="-22" rx="30" ry="10" fill="#FB7185" opacity="0.4"/>
+    <!-- Bowl rim highlight -->
+    <path d="M-95 -15 Q-95 -30 -70 -42" stroke="#E11D48" stroke-width="2" fill="none" opacity="0.4"/>
+    <!-- Small drip on side -->
+    <path d="M60 -5 Q65 15 62 35" stroke="#F43F5E" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <circle cx="62" cy="38" r="4" fill="#F43F5E" opacity="0.5"/>
+  </g>
+  <!-- Small scattered dye drops -->
+  <circle cx="870" cy="480" r="5" fill="#F43F5E" opacity="0.3"/>
+  <circle cx="890" cy="500" r="3" fill="#9F1239" opacity="0.25"/>
+  <circle cx="910" cy="470" r="4" fill="#FDA4AF" opacity="0.35"/>
+</svg>

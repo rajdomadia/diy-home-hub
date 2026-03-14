@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="50%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FECDD3"/>
+    </linearGradient>
+    <linearGradient id="cord" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDA4AF"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="cordLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FDA4AF"/>
+    </linearGradient>
+    <linearGradient id="dowel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A574"/>
+      <stop offset="40%" stop-color="#C4956A"/>
+      <stop offset="100%" stop-color="#A67B5B"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Subtle decorative circles -->
+  <circle cx="200" cy="100" r="80" fill="#FECDD3" opacity="0.3"/>
+  <circle cx="1000" cy="500" r="120" fill="#FECDD3" opacity="0.25"/>
+  <circle cx="900" cy="80" r="50" fill="#FDA4AF" opacity="0.15"/>
+  <!-- Hanging string -->
+  <path d="M540 60 Q600 40 660 60" stroke="#A67B5B" stroke-width="3" fill="none"/>
+  <!-- Wooden dowel -->
+  <rect x="400" y="95" width="400" height="18" rx="9" fill="url(#dowel)"/>
+  <ellipse cx="400" cy="104" rx="9" ry="9" fill="#C4956A"/>
+  <ellipse cx="800" cy="104" rx="9" ry="9" fill="#A67B5B"/>
+  <!-- Main macrame body - V/triangle pattern -->
+  <!-- Left group of cords -->
+  <path d="M440 113 Q440 200 480 280 Q500 320 520 360 L530 400" stroke="url(#cord)" stroke-width="4" fill="none"/>
+  <path d="M460 113 Q465 190 500 270 Q520 310 540 350 L545 390" stroke="url(#cordLight)" stroke-width="3.5" fill="none"/>
+  <path d="M480 113 Q490 180 520 260 Q540 300 555 340 L560 380" stroke="url(#cord)" stroke-width="4" fill="none"/>
+  <path d="M500 113 Q515 175 540 250 Q555 290 570 330 L575 370" stroke="#FDA4AF" stroke-width="3.5" fill="none"/>
+  <path d="M520 113 Q540 170 560 240 Q575 280 585 320 L590 360" stroke="url(#cordLight)" stroke-width="3" fill="none"/>
+  <!-- Center cords -->
+  <path d="M560 113 Q575 180 590 250 Q598 290 600 330 L600 370" stroke="url(#cord)" stroke-width="4.5" fill="none"/>
+  <path d="M580 113 Q590 175 598 245 Q600 285 600 320" stroke="#F43F5E" stroke-width="4" fill="none"/>
+  <path d="M600 113 Q600 180 600 250 Q600 300 600 350" stroke="url(#cordLight)" stroke-width="5" fill="none"/>
+  <path d="M620 113 Q610 175 605 245 Q602 285 600 320" stroke="url(#cord)" stroke-width="4" fill="none"/>
+  <path d="M640 113 Q625 180 610 250 Q605 290 600 330 L600 370" stroke="#FDA4AF" stroke-width="4" fill="none"/>
+  <!-- Right group of cords -->
+  <path d="M680 113 Q660 170 640 240 Q625 280 615 320 L610 360" stroke="url(#cordLight)" stroke-width="3" fill="none"/>
+  <path d="M700 113 Q685 175 660 250 Q645 290 630 330 L625 370" stroke="url(#cord)" stroke-width="3.5" fill="none"/>
+  <path d="M720 113 Q710 180 680 260 Q660 300 645 340 L640 380" stroke="#FDA4AF" stroke-width="4" fill="none"/>
+  <path d="M740 113 Q735 190 700 270 Q680 310 660 350 L655 390" stroke="url(#cord)" stroke-width="3.5" fill="none"/>
+  <path d="M760 113 Q760 200 720 280 Q700 320 680 360 L670 400" stroke="url(#cordLight)" stroke-width="4" fill="none"/>
+  <!-- Decorative knot clusters -->
+  <!-- Left knots -->
+  <ellipse cx="470" cy="200" rx="18" ry="10" fill="#F43F5E" opacity="0.6"/>
+  <ellipse cx="510" cy="250" rx="20" ry="10" fill="#FDA4AF" opacity="0.7"/>
+  <ellipse cx="540" cy="300" rx="18" ry="9" fill="#F43F5E" opacity="0.5"/>
+  <!-- Center diamond knot pattern -->
+  <path d="M570 180 L600 160 L630 180 L600 200 Z" fill="#F43F5E" opacity="0.3"/>
+  <path d="M555 240 L600 210 L645 240 L600 270 Z" fill="#FDA4AF" opacity="0.35"/>
+  <path d="M565 300 L600 275 L635 300 L600 325 Z" fill="#F43F5E" opacity="0.25"/>
+  <!-- Right knots -->
+  <ellipse cx="730" cy="200" rx="18" ry="10" fill="#FDA4AF" opacity="0.7"/>
+  <ellipse cx="690" cy="250" rx="20" ry="10" fill="#F43F5E" opacity="0.5"/>
+  <ellipse cx="660" cy="300" rx="18" ry="9" fill="#FDA4AF" opacity="0.6"/>
+  <!-- Fringe at bottom - V shape -->
+  <line x1="530" y1="400" x2="520" y2="520" stroke="#FDA4AF" stroke-width="2.5" opacity="0.8"/>
+  <line x1="545" y1="390" x2="538" y2="510" stroke="#F43F5E" stroke-width="2" opacity="0.7"/>
+  <line x1="560" y1="380" x2="555" y2="505" stroke="#FDA4AF" stroke-width="2.5" opacity="0.8"/>
+  <line x1="575" y1="370" x2="572" y2="500" stroke="#FECDD3" stroke-width="2" opacity="0.9"/>
+  <line x1="590" y1="360" x2="588" y2="495" stroke="#F43F5E" stroke-width="2.5" opacity="0.7"/>
+  <line x1="600" y1="370" x2="600" y2="510" stroke="#FDA4AF" stroke-width="3" opacity="0.8"/>
+  <line x1="610" y1="360" x2="612" y2="495" stroke="#FECDD3" stroke-width="2.5" opacity="0.7"/>
+  <line x1="625" y1="370" x2="628" y2="500" stroke="#F43F5E" stroke-width="2" opacity="0.8"/>
+  <line x1="640" y1="380" x2="645" y2="505" stroke="#FDA4AF" stroke-width="2.5" opacity="0.8"/>
+  <line x1="655" y1="390" x2="662" y2="510" stroke="#FECDD3" stroke-width="2" opacity="0.7"/>
+  <line x1="670" y1="400" x2="680" y2="520" stroke="#F43F5E" stroke-width="2.5" opacity="0.8"/>
+  <!-- Extra fringe wisps -->
+  <line x1="515" y1="520" x2="510" y2="560" stroke="#FDA4AF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="540" y1="510" x2="536" y2="548" stroke="#F43F5E" stroke-width="1.5" opacity="0.4"/>
+  <line x1="560" y1="505" x2="558" y2="545" stroke="#FDA4AF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="600" y1="510" x2="600" y2="555" stroke="#FECDD3" stroke-width="2" opacity="0.5"/>
+  <line x1="640" y1="505" x2="642" y2="545" stroke="#F43F5E" stroke-width="1.5" opacity="0.5"/>
+  <line x1="662" y1="510" x2="666" y2="548" stroke="#FDA4AF" stroke-width="1.5" opacity="0.4"/>
+  <line x1="685" y1="520" x2="690" y2="560" stroke="#FECDD3" stroke-width="1.5" opacity="0.5"/>
+</svg>

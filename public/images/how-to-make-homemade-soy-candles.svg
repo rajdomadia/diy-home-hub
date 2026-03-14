@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="50%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FECDD3"/>
+    </linearGradient>
+    <!-- Glass jar gradients -->
+    <linearGradient id="glass1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FECDD3" stop-opacity="0.5"/>
+      <stop offset="20%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#FFF1F2" stop-opacity="0.1"/>
+      <stop offset="80%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FECDD3" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="wax1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="100%" stop-color="#FFE4E6"/>
+    </linearGradient>
+    <linearGradient id="wax2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FECDD3"/>
+      <stop offset="100%" stop-color="#FDA4AF"/>
+    </linearGradient>
+    <linearGradient id="wax3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDA4AF"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="40%" stop-color="#FDA4AF"/>
+      <stop offset="70%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FFF1F2"/>
+    </linearGradient>
+    <linearGradient id="flameInner" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#9F1239"/>
+      <stop offset="50%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FDA4AF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FDA4AF" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#FDA4AF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FDA4AF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="3" dy="5" stdDeviation="8" flood-color="#9F1239" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glowFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Soft background shapes -->
+  <circle cx="200" cy="200" r="120" fill="#FECDD3" opacity="0.2"/>
+  <circle cx="1000" cy="400" r="100" fill="#FDA4AF" opacity="0.12"/>
+  <!-- Warm glow effects behind candles -->
+  <ellipse cx="400" cy="250" rx="120" ry="150" fill="url(#glow)" filter="url(#glowFilter)"/>
+  <ellipse cx="600" cy="200" rx="130" ry="170" fill="url(#glow)" filter="url(#glowFilter)"/>
+  <ellipse cx="800" cy="280" rx="110" ry="140" fill="url(#glow)" filter="url(#glowFilter)"/>
+  <!-- CANDLE 1 - Tall (center) -->
+  <g transform="translate(600, 150)" filter="url(#shadow)">
+    <!-- Glass jar -->
+    <rect x="-70" y="0" width="140" height="280" rx="10" fill="url(#glass1)" stroke="#FECDD3" stroke-width="1.5"/>
+    <!-- Wax fill -->
+    <rect x="-62" y="40" width="124" height="235" rx="6" fill="url(#wax1)"/>
+    <!-- Wax surface -->
+    <ellipse cx="0" cy="40" rx="62" ry="10" fill="#FFFFFF" opacity="0.5"/>
+    <!-- Glass shine -->
+    <rect x="-60" y="10" width="12" height="200" rx="6" fill="#FFFFFF" opacity="0.15"/>
+    <rect x="48" y="20" width="6" height="150" rx="3" fill="#FFFFFF" opacity="0.1"/>
+    <!-- Jar rim -->
+    <rect x="-72" y="-5" width="144" height="12" rx="6" fill="#FECDD3" opacity="0.4"/>
+    <!-- Wick -->
+    <line x1="0" y1="40" x2="0" y2="10" stroke="#9F1239" stroke-width="2"/>
+    <!-- Flame -->
+    <path d="M0 10 Q-12 -15 0 -40 Q12 -15 0 10Z" fill="url(#flame)" opacity="0.9"/>
+    <path d="M0 8 Q-6 -8 0 -25 Q6 -8 0 8Z" fill="url(#flameInner)" opacity="0.7"/>
+    <!-- Flame glow -->
+    <circle cx="0" cy="-10" r="25" fill="#FDA4AF" opacity="0.15"/>
+  </g>
+  <!-- CANDLE 2 - Medium (left) -->
+  <g transform="translate(400, 220)" filter="url(#shadow)">
+    <!-- Glass jar -->
+    <rect x="-60" y="0" width="120" height="220" rx="8" fill="url(#glass1)" stroke="#FECDD3" stroke-width="1.5"/>
+    <!-- Wax fill -->
+    <rect x="-52" y="60" width="104" height="155" rx="5" fill="url(#wax2)"/>
+    <!-- Wax surface -->
+    <ellipse cx="0" cy="60" rx="52" ry="8" fill="#FFE4E6" opacity="0.6"/>
+    <!-- Glass shine -->
+    <rect x="-50" y="10" width="10" height="160" rx="5" fill="#FFFFFF" opacity="0.15"/>
+    <rect x="40" y="20" width="5" height="120" rx="2.5" fill="#FFFFFF" opacity="0.1"/>
+    <!-- Jar rim -->
+    <rect x="-62" y="-4" width="124" height="10" rx="5" fill="#FECDD3" opacity="0.4"/>
+    <!-- Wick -->
+    <line x1="0" y1="60" x2="0" y2="30" stroke="#9F1239" stroke-width="2"/>
+    <!-- Flame -->
+    <path d="M0 30 Q-10 10 0 -12 Q10 10 0 30Z" fill="url(#flame)" opacity="0.9"/>
+    <path d="M0 28 Q-5 12 0 -3 Q5 12 0 28Z" fill="url(#flameInner)" opacity="0.7"/>
+    <!-- Flame glow -->
+    <circle cx="0" cy="5" r="20" fill="#FDA4AF" opacity="0.15"/>
+  </g>
+  <!-- CANDLE 3 - Short (right) -->
+  <g transform="translate(800, 280)" filter="url(#shadow)">
+    <!-- Glass jar -->
+    <rect x="-55" y="0" width="110" height="170" rx="8" fill="url(#glass1)" stroke="#FECDD3" stroke-width="1.5"/>
+    <!-- Wax fill -->
+    <rect x="-47" y="45" width="94" height="120" rx="5" fill="url(#wax3)"/>
+    <!-- Wax surface -->
+    <ellipse cx="0" cy="45" rx="47" ry="7" fill="#FECDD3" opacity="0.5"/>
+    <!-- Glass shine -->
+    <rect x="-45" y="8" width="9" height="120" rx="4.5" fill="#FFFFFF" opacity="0.15"/>
+    <rect x="36" y="15" width="5" height="90" rx="2.5" fill="#FFFFFF" opacity="0.1"/>
+    <!-- Jar rim -->
+    <rect x="-57" y="-4" width="114" height="10" rx="5" fill="#FECDD3" opacity="0.4"/>
+    <!-- Wick -->
+    <line x1="0" y1="45" x2="0" y2="20" stroke="#9F1239" stroke-width="2"/>
+    <!-- Flame -->
+    <path d="M0 20 Q-9 5 0 -15 Q9 5 0 20Z" fill="url(#flame)" opacity="0.9"/>
+    <path d="M0 18 Q-4 7 0 -5 Q4 7 0 18Z" fill="url(#flameInner)" opacity="0.7"/>
+    <!-- Flame glow -->
+    <circle cx="0" cy="0" r="18" fill="#FDA4AF" opacity="0.15"/>
+  </g>
+  <!-- Surface/table line -->
+  <line x1="250" y1="455" x2="950" y2="455" stroke="#FDA4AF" stroke-width="1" opacity="0.3"/>
+</svg>

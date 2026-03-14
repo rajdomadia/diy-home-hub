@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="108" fill="#D97706"/>
+
+  <!-- House roof -->
+  <path d="M256 108 L420 248 L92 248 Z" fill="white" opacity="0.95"/>
+
+  <!-- Chimney -->
+  <rect x="340" y="130" width="36" height="90" rx="4" fill="white" opacity="0.95"/>
+
+  <!-- House body -->
+  <rect x="136" y="248" width="240" height="170" fill="white" opacity="0.95"/>
+
+  <!-- Door -->
+  <rect x="220" y="308" width="72" height="110" rx="8" fill="#B45309"/>
+
+  <!-- Door handle -->
+  <circle cx="278" cy="365" r="7" fill="#FEF3C7"/>
+
+  <!-- Left window -->
+  <rect x="156" y="278" width="48" height="48" rx="6" fill="#B45309" opacity="0.8"/>
+  <line x1="180" y1="278" x2="180" y2="326" stroke="white" stroke-width="3" opacity="0.6"/>
+  <line x1="156" y1="302" x2="204" y2="302" stroke="white" stroke-width="3" opacity="0.6"/>
+
+  <!-- Right window -->
+  <rect x="308" y="278" width="48" height="48" rx="6" fill="#B45309" opacity="0.8"/>
+  <line x1="332" y1="278" x2="332" y2="326" stroke="white" stroke-width="3" opacity="0.6"/>
+  <line x1="308" y1="302" x2="356" y2="302" stroke="white" stroke-width="3" opacity="0.6"/>
+
+  <!-- Wrench accent (small, bottom-right corner) -->
+  <g transform="translate(385, 385) rotate(-45)" opacity="0.9">
+    <rect x="-8" y="-50" width="16" height="60" rx="4" fill="#FEF3C7"/>
+    <circle cx="0" cy="-50" r="18" fill="none" stroke="#FEF3C7" stroke-width="10"/>
+    <rect x="-6" y="-52" width="12" height="16" fill="#D97706"/>
+  </g>
+</svg>

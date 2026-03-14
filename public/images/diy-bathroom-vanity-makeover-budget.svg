@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="cabinet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="mirror" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#BFDBFE"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Wall -->
+  <rect x="300" y="50" width="600" height="530" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2"/>
+  <!-- Floor -->
+  <rect x="0" y="520" width="1200" height="110" fill="#92400E" opacity="0.12"/>
+  <!-- Mirror -->
+  <g transform="translate(430, 65)">
+    <rect x="0" y="0" width="240" height="180" rx="120" fill="url(#mirror)" stroke="#D97706" stroke-width="4"/>
+    <!-- Mirror shine -->
+    <ellipse cx="80" cy="60" rx="30" ry="50" fill="white" opacity="0.2" transform="rotate(-15 80 60)"/>
+  </g>
+  <!-- Vanity cabinet -->
+  <g transform="translate(370, 280)">
+    <!-- Cabinet body -->
+    <rect x="0" y="0" width="360" height="230" rx="6" fill="url(#cabinet)"/>
+    <!-- Cabinet top edge -->
+    <rect x="-5" y="-5" width="370" height="10" rx="3" fill="#B45309"/>
+    <!-- Left door -->
+    <rect x="10" y="15" width="165" height="200" rx="4" fill="#B45309" stroke="#92400E" stroke-width="2"/>
+    <!-- Left door panel inset -->
+    <rect x="25" y="30" width="135" height="170" rx="3" fill="#D97706" opacity="0.3"/>
+    <!-- Left door handle -->
+    <rect x="145" y="100" width="6" height="30" rx="3" fill="#FCD34D"/>
+    <!-- Right door -->
+    <rect x="185" y="15" width="165" height="200" rx="4" fill="#B45309" stroke="#92400E" stroke-width="2"/>
+    <!-- Right door panel inset -->
+    <rect x="200" y="30" width="135" height="170" rx="3" fill="#D97706" opacity="0.3"/>
+    <!-- Right door handle -->
+    <rect x="209" y="100" width="6" height="30" rx="3" fill="#FCD34D"/>
+    <!-- Cabinet legs -->
+    <rect x="15" y="230" width="12" height="15" rx="3" fill="#92400E"/>
+    <rect x="333" y="230" width="12" height="15" rx="3" fill="#92400E"/>
+  </g>
+  <!-- Countertop -->
+  <rect x="360" y="268" width="380" height="16" rx="4" fill="#FCD34D"/>
+  <!-- Sink basin -->
+  <g transform="translate(550, 260)">
+    <!-- Basin outer -->
+    <ellipse cx="0" cy="10" rx="75" ry="25" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="2"/>
+    <!-- Basin inner -->
+    <ellipse cx="0" cy="12" rx="55" ry="18" fill="#E5E7EB"/>
+    <!-- Drain -->
+    <circle cx="0" cy="14" r="6" fill="#9CA3AF"/>
+  </g>
+  <!-- Faucet -->
+  <g transform="translate(540, 220)">
+    <!-- Faucet body -->
+    <rect x="5" y="30" width="10" height="25" rx="3" fill="#9CA3AF"/>
+    <!-- Faucet spout -->
+    <path d="M10 30 Q10 10 30 10 L30 18 Q18 18 18 30" fill="#9CA3AF"/>
+    <!-- Water drop -->
+    <ellipse cx="30" cy="25" rx="3" ry="4" fill="#93C5FD" opacity="0.6"/>
+    <!-- Handles -->
+    <circle cx="-2" cy="40" r="7" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+    <circle cx="22" cy="40" r="7" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+  </g>
+  <!-- Small plant accent (right side of vanity) -->
+  <g transform="translate(770, 225)">
+    <!-- Pot -->
+    <path d="M-15 50 L-20 15 L20 15 L15 50 Z" fill="#D97706"/>
+    <rect x="-22" y="10" width="44" height="10" rx="3" fill="#B45309"/>
+    <!-- Plant leaves -->
+    <path d="M0 15 Q-15 -10 -5 -25" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-8" cy="-22" rx="10" ry="6" fill="#10B981" transform="rotate(-30 -8 -22)"/>
+    <path d="M0 15 Q5 -5 15 -20" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="16" cy="-18" rx="10" ry="6" fill="#34D399" transform="rotate(20 16 -18)"/>
+    <path d="M0 15 Q-5 0 0 -15" stroke="#059669" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-15" rx="7" ry="5" fill="#10B981"/>
+  </g>
+  <!-- Wall sconce lights -->
+  <g transform="translate(390, 100)">
+    <rect x="0" y="0" width="8" height="30" rx="2" fill="#D97706"/>
+    <circle cx="4" cy="-5" r="12" fill="#FCD34D" opacity="0.4"/>
+    <circle cx="4" cy="-5" r="6" fill="#FCD34D"/>
+  </g>
+  <g transform="translate(702, 100)">
+    <rect x="0" y="0" width="8" height="30" rx="2" fill="#D97706"/>
+    <circle cx="4" cy="-5" r="12" fill="#FCD34D" opacity="0.4"/>
+    <circle cx="4" cy="-5" r="6" fill="#FCD34D"/>
+  </g>
+</svg>

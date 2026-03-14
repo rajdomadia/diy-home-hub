@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="deskTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Floor -->
+  <rect x="0" y="490" width="1200" height="140" fill="#92400E" opacity="0.1"/>
+  <!-- Desk -->
+  <!-- Desktop surface -->
+  <g transform="translate(250, 280)">
+    <!-- Desk top - perspective -->
+    <path d="M0 0 L700 0 L700 25 L0 25 Z" fill="url(#deskTop)" rx="3"/>
+    <rect x="0" y="0" width="700" height="5" rx="2" fill="#FCD34D" opacity="0.3"/>
+    <!-- Front edge -->
+    <rect x="0" y="22" width="700" height="8" fill="#92400E" rx="2"/>
+    <!-- Left legs -->
+    <rect x="20" y="25" width="16" height="185" fill="#B45309"/>
+    <rect x="20" y="25" width="16" height="185" fill="#92400E" opacity="0.2"/>
+    <!-- Right legs -->
+    <rect x="664" y="25" width="16" height="185" fill="#B45309"/>
+    <rect x="664" y="25" width="16" height="185" fill="#92400E" opacity="0.2"/>
+    <!-- Cross support -->
+    <rect x="36" y="160" width="628" height="10" rx="3" fill="#B45309"/>
+  </g>
+  <!-- Monitor on desk -->
+  <g transform="translate(480, 130)">
+    <!-- Monitor screen -->
+    <rect x="0" y="0" width="240" height="150" rx="8" fill="url(#screen)"/>
+    <!-- Screen content - abstract lines -->
+    <rect x="15" y="15" width="120" height="8" rx="3" fill="#D97706" opacity="0.6"/>
+    <rect x="15" y="30" width="90" height="6" rx="3" fill="#FCD34D" opacity="0.4"/>
+    <rect x="15" y="43" width="150" height="6" rx="3" fill="#FCD34D" opacity="0.3"/>
+    <rect x="15" y="56" width="110" height="6" rx="3" fill="#FCD34D" opacity="0.3"/>
+    <rect x="15" y="75" width="80" height="50" rx="4" fill="#D97706" opacity="0.2"/>
+    <rect x="105" y="75" width="80" height="50" rx="4" fill="#FCD34D" opacity="0.15"/>
+    <!-- Monitor stand -->
+    <rect x="100" y="150" width="40" height="25" fill="#4B5563"/>
+    <!-- Monitor base -->
+    <ellipse cx="120" cy="178" rx="50" ry="8" fill="#4B5563"/>
+  </g>
+  <!-- Keyboard -->
+  <rect x="510" y="268" width="160" height="10" rx="4" fill="#6B7280"/>
+  <rect x="515" y="266" width="150" height="8" rx="3" fill="#9CA3AF"/>
+  <!-- Tools beside desk - left side -->
+  <!-- Hand saw -->
+  <g transform="translate(140, 300)">
+    <!-- Saw blade -->
+    <rect x="0" y="40" width="120" height="3" fill="#9CA3AF"/>
+    <!-- Saw teeth -->
+    <path d="M0 43 L5 48 L10 43 L15 48 L20 43 L25 48 L30 43 L35 48 L40 43 L45 48 L50 43 L55 48 L60 43 L65 48 L70 43 L75 48 L80 43 L85 48 L90 43 L95 48 L100 43 L105 48 L110 43 L115 48 L120 43" stroke="#9CA3AF" stroke-width="1.5" fill="none"/>
+    <!-- Handle -->
+    <path d="M120 30 Q135 30 140 40 Q145 50 135 55 L120 55 L120 30 Z" fill="#92400E"/>
+    <path d="M120 35 Q130 35 133 40 Q136 48 130 50 L120 50 L120 35 Z" fill="#D97706" opacity="0.5"/>
+  </g>
+  <!-- Ruler -->
+  <g transform="translate(160, 380) rotate(-15)">
+    <rect x="0" y="0" width="150" height="22" rx="2" fill="#FCD34D" stroke="#D97706" stroke-width="1"/>
+    <!-- Ruler marks -->
+    <line x1="15" y1="0" x2="15" y2="10" stroke="#92400E" stroke-width="1"/>
+    <line x1="30" y1="0" x2="30" y2="15" stroke="#92400E" stroke-width="1.5"/>
+    <line x1="45" y1="0" x2="45" y2="10" stroke="#92400E" stroke-width="1"/>
+    <line x1="60" y1="0" x2="60" y2="15" stroke="#92400E" stroke-width="1.5"/>
+    <line x1="75" y1="0" x2="75" y2="10" stroke="#92400E" stroke-width="1"/>
+    <line x1="90" y1="0" x2="90" y2="15" stroke="#92400E" stroke-width="1.5"/>
+    <line x1="105" y1="0" x2="105" y2="10" stroke="#92400E" stroke-width="1"/>
+    <line x1="120" y1="0" x2="120" y2="15" stroke="#92400E" stroke-width="1.5"/>
+    <line x1="135" y1="0" x2="135" y2="10" stroke="#92400E" stroke-width="1"/>
+  </g>
+  <!-- Pencil on desk -->
+  <g transform="translate(700, 272) rotate(-5)">
+    <rect x="0" y="0" width="80" height="6" rx="1" fill="#FCD34D"/>
+    <polygon points="80,0 80,6 90,3" fill="#F5DEB3"/>
+    <rect x="-2" y="-1" width="8" height="8" rx="1" fill="#D97706"/>
+  </g>
+  <!-- Shadow under desk -->
+  <ellipse cx="600" cy="495" rx="350" ry="10" fill="#92400E" opacity="0.08"/>
+</svg>

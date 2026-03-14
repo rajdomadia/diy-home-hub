@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E5E7EB"/>
+      <stop offset="30%" stop-color="#F9FAFB"/>
+      <stop offset="60%" stop-color="#D1D5DB"/>
+      <stop offset="100%" stop-color="#9CA3AF"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Counter/sink area -->
+  <rect x="250" y="380" width="700" height="30" rx="4" fill="#D97706"/>
+  <rect x="250" y="405" width="700" height="10" fill="#92400E" rx="3"/>
+  <!-- Sink basin -->
+  <path d="M350 410 L350 520 Q350 560 400 560 L800 560 Q850 560 850 520 L850 410" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="3"/>
+  <!-- Drain -->
+  <circle cx="600" cy="540" r="15" fill="#9CA3AF" stroke="#6B7280" stroke-width="2"/>
+  <circle cx="600" cy="540" r="6" fill="#6B7280"/>
+  <!-- Drain cross -->
+  <line x1="594" y1="540" x2="606" y2="540" stroke="#4B5563" stroke-width="2"/>
+  <line x1="600" y1="534" x2="600" y2="546" stroke="#4B5563" stroke-width="2"/>
+  <!-- Backsplash wall -->
+  <rect x="250" y="60" width="700" height="320" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2" rx="4"/>
+  <!-- Faucet -->
+  <g transform="translate(530, 180)">
+    <!-- Base plate -->
+    <ellipse cx="70" cy="200" rx="80" ry="15" fill="url(#chrome)" stroke="#9CA3AF" stroke-width="2"/>
+    <!-- Faucet body - vertical pipe -->
+    <rect x="55" y="100" width="30" height="100" rx="8" fill="url(#chrome)" stroke="#9CA3AF" stroke-width="1.5"/>
+    <!-- Faucet neck - curved spout -->
+    <path d="M70 100 Q70 40 120 40 L160 40 Q180 40 180 55 L180 65" fill="none" stroke="url(#chrome)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M70 100 Q70 40 120 40 L160 40 Q180 40 180 55 L180 65" fill="none" stroke="#9CA3AF" stroke-width="1" opacity="0.5"/>
+    <!-- Spout end -->
+    <ellipse cx="180" cy="68" rx="12" ry="6" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1"/>
+    <!-- Left handle -->
+    <g transform="translate(-15, 160)">
+      <rect x="0" y="0" width="12" height="50" rx="4" fill="url(#chrome)" stroke="#9CA3AF" stroke-width="1"/>
+      <circle cx="6" cy="0" r="12" fill="url(#chrome)" stroke="#9CA3AF" stroke-width="1.5"/>
+      <!-- Hot indicator -->
+      <circle cx="6" cy="0" r="4" fill="#EF4444" opacity="0.6"/>
+    </g>
+    <!-- Right handle -->
+    <g transform="translate(143, 160)">
+      <rect x="0" y="0" width="12" height="50" rx="4" fill="url(#chrome)" stroke="#9CA3AF" stroke-width="1"/>
+      <circle cx="6" cy="0" r="12" fill="url(#chrome)" stroke="#9CA3AF" stroke-width="1.5"/>
+      <!-- Cold indicator -->
+      <circle cx="6" cy="0" r="4" fill="#3B82F6" opacity="0.6"/>
+    </g>
+    <!-- Water drops falling from spout -->
+    <g>
+      <!-- Drop 1 (main, large) -->
+      <path d="M180 78 Q180 88 176 95 Q172 102 180 102 Q188 102 184 95 Q180 88 180 78" fill="url(#water)" opacity="0.8"/>
+      <!-- Drop 2 -->
+      <ellipse cx="180" cy="120" rx="5" ry="7" fill="url(#water)" opacity="0.6"/>
+      <!-- Drop 3 -->
+      <ellipse cx="181" cy="148" rx="4" ry="5" fill="url(#water)" opacity="0.4"/>
+      <!-- Tiny splash drops -->
+      <circle cx="178" cy="135" r="2" fill="#93C5FD" opacity="0.3"/>
+      <circle cx="183" cy="160" r="1.5" fill="#93C5FD" opacity="0.25"/>
+    </g>
+  </g>
+  <!-- Wrench beside the faucet -->
+  <g transform="translate(820, 200) rotate(25)">
+    <!-- Wrench handle -->
+    <rect x="0" y="40" width="30" height="200" rx="6" fill="#9CA3AF" stroke="#6B7280" stroke-width="2"/>
+    <!-- Handle grip pattern -->
+    <g>
+      <line x1="5" y1="100" x2="25" y2="100" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="5" y1="110" x2="25" y2="110" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="5" y1="120" x2="25" y2="120" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="5" y1="130" x2="25" y2="130" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="5" y1="140" x2="25" y2="140" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="5" y1="150" x2="25" y2="150" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="5" y1="160" x2="25" y2="160" stroke="#6B7280" stroke-width="1.5"/>
+    </g>
+    <!-- Wrench jaw (open end) -->
+    <path d="M0 40 L-8 15 L-8 0 L5 0 L5 40" fill="#9CA3AF" stroke="#6B7280" stroke-width="2"/>
+    <path d="M30 40 L38 15 L38 0 L25 0 L25 40" fill="#9CA3AF" stroke="#6B7280" stroke-width="2"/>
+    <!-- Jaw opening -->
+    <rect x="5" y="0" width="20" height="20" fill="url(#bg)"/>
+  </g>
+  <!-- Small water puddle on counter -->
+  <ellipse cx="730" cy="385" rx="30" ry="5" fill="#93C5FD" opacity="0.3"/>
+</svg>

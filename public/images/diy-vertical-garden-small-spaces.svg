@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F5F4"/>
+      <stop offset="100%" stop-color="#E7E5E4"/>
+    </linearGradient>
+    <linearGradient id="planter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#065F46"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg4)"/>
+  <!-- Wall -->
+  <rect x="300" y="60" width="600" height="510" rx="8" fill="url(#wall)"/>
+  <rect x="300" y="60" width="600" height="510" rx="8" fill="none" stroke="#D6D3D1" stroke-width="2"/>
+  <!-- Wall texture lines -->
+  <line x1="300" y1="190" x2="900" y2="190" stroke="#E7E5E4" stroke-width="1"/>
+  <line x1="300" y1="320" x2="900" y2="320" stroke="#E7E5E4" stroke-width="1"/>
+  <line x1="300" y1="450" x2="900" y2="450" stroke="#E7E5E4" stroke-width="1"/>
+  <!-- Vertical mounting bar -->
+  <rect x="585" y="80" width="30" height="470" rx="4" fill="#78716C"/>
+  <rect x="590" y="80" width="20" height="470" rx="3" fill="#A8A29E"/>
+
+  <!-- Floor -->
+  <rect x="250" y="570" width="700" height="60" rx="4" fill="#D6D3D1" opacity="0.5"/>
+
+  <!-- Tier 1 (top) - small pockets -->
+  <g transform="translate(600, 130)">
+    <!-- Left pocket -->
+    <path d="M-120 -20 L-120 30 C-120 45, -80 45, -80 30 L-80 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="-122" y="-24" width="44" height="8" rx="3" fill="#065F46"/>
+    <!-- Soil -->
+    <rect x="-118" y="-16" width="36" height="20" fill="#78350F" opacity="0.4" rx="2"/>
+    <!-- Plants -->
+    <ellipse cx="-105" cy="-25" rx="14" ry="10" fill="#34D399"/>
+    <ellipse cx="-92" cy="-28" rx="12" ry="8" fill="#6EE7B7"/>
+    <ellipse cx="-100" cy="-32" rx="10" ry="7" fill="#059669"/>
+    <!-- Right pocket -->
+    <path d="M80 -20 L80 30 C80 45, 120 45, 120 30 L120 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="78" y="-24" width="44" height="8" rx="3" fill="#065F46"/>
+    <rect x="82" y="-16" width="36" height="20" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="95" cy="-25" rx="14" ry="10" fill="#6EE7B7"/>
+    <ellipse cx="108" cy="-28" rx="12" ry="8" fill="#34D399"/>
+    <ellipse cx="100" cy="-32" rx="10" ry="7" fill="#A7F3D0"/>
+  </g>
+
+  <!-- Tier 2 -->
+  <g transform="translate(600, 250)">
+    <!-- Left pocket -->
+    <path d="M-150 -20 L-150 35 C-150 50, -100 50, -100 35 L-100 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="-152" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="-148" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <!-- Trailing plant -->
+    <ellipse cx="-130" cy="-28" rx="16" ry="11" fill="#059669"/>
+    <ellipse cx="-118" cy="-32" rx="14" ry="9" fill="#34D399"/>
+    <ellipse cx="-138" cy="-35" rx="12" ry="8" fill="#6EE7B7"/>
+    <!-- Trailing vine -->
+    <path d="M-140 30 C-145 50, -138 60, -148 75" stroke="#34D399" stroke-width="2" fill="none"/>
+    <ellipse cx="-148" cy="65" rx="8" ry="5" fill="#6EE7B7" transform="rotate(-20, -148, 65)"/>
+    <!-- Center pocket -->
+    <path d="M-25 -20 L-25 35 C-25 50, 25 50, 25 35 L25 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="-27" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="-23" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="-5" cy="-30" rx="15" ry="10" fill="#34D399"/>
+    <ellipse cx="8" cy="-33" rx="13" ry="9" fill="#059669"/>
+    <ellipse cx="0" cy="-37" rx="11" ry="7" fill="#6EE7B7"/>
+    <!-- Small flower -->
+    <circle cx="5" cy="-40" r="5" fill="#FCD34D" opacity="0.8"/>
+    <!-- Right pocket -->
+    <path d="M100 -20 L100 35 C100 50, 150 50, 150 35 L150 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="98" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="102" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="120" cy="-28" rx="15" ry="10" fill="#6EE7B7"/>
+    <ellipse cx="132" cy="-32" rx="13" ry="9" fill="#059669"/>
+    <ellipse cx="125" cy="-36" rx="11" ry="7" fill="#34D399"/>
+  </g>
+
+  <!-- Tier 3 -->
+  <g transform="translate(600, 370)">
+    <!-- Left pocket -->
+    <path d="M-130 -20 L-130 35 C-130 50, -80 50, -80 35 L-80 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="-132" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="-128" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <!-- Herb-like plant -->
+    <path d="M-108 -25 L-108 -50" stroke="#059669" stroke-width="2"/>
+    <path d="M-100 -25 L-100 -55" stroke="#059669" stroke-width="2"/>
+    <path d="M-115 -25 L-115 -45" stroke="#059669" stroke-width="2"/>
+    <ellipse cx="-108" cy="-52" rx="6" ry="8" fill="#34D399"/>
+    <ellipse cx="-100" cy="-57" rx="6" ry="8" fill="#6EE7B7"/>
+    <ellipse cx="-115" cy="-47" rx="6" ry="8" fill="#059669"/>
+    <!-- Right pocket -->
+    <path d="M80 -20 L80 35 C80 50, 130 50, 130 35 L130 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="78" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="82" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="100" cy="-30" rx="16" ry="11" fill="#059669"/>
+    <ellipse cx="112" cy="-34" rx="14" ry="9" fill="#6EE7B7"/>
+    <ellipse cx="105" cy="-38" rx="12" ry="8" fill="#34D399"/>
+    <!-- Trailing vine -->
+    <path d="M90 30 C85 50, 92 65, 82 80" stroke="#34D399" stroke-width="2" fill="none"/>
+    <ellipse cx="82" cy="72" rx="8" ry="5" fill="#6EE7B7" transform="rotate(15, 82, 72)"/>
+  </g>
+
+  <!-- Tier 4 (bottom) -->
+  <g transform="translate(600, 490)">
+    <!-- Left pocket -->
+    <path d="M-160 -20 L-160 35 C-160 50, -110 50, -110 35 L-110 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="-162" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="-158" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="-140" cy="-30" rx="15" ry="10" fill="#34D399"/>
+    <ellipse cx="-130" cy="-34" rx="13" ry="9" fill="#6EE7B7"/>
+    <!-- Small flowers -->
+    <circle cx="-135" cy="-38" r="5" fill="#F9A8D4" opacity="0.7"/>
+    <circle cx="-145" cy="-35" r="4" fill="#FCD34D" opacity="0.7"/>
+    <!-- Center pocket -->
+    <path d="M-25 -20 L-25 35 C-25 50, 25 50, 25 35 L25 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="-27" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="-23" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="0" cy="-30" rx="16" ry="11" fill="#059669"/>
+    <ellipse cx="10" cy="-34" rx="14" ry="9" fill="#34D399"/>
+    <ellipse cx="5" cy="-38" rx="12" ry="8" fill="#A7F3D0"/>
+    <!-- Right pocket -->
+    <path d="M110 -20 L110 35 C110 50, 160 50, 160 35 L160 -20Z" fill="url(#planter)" opacity="0.9"/>
+    <rect x="108" y="-24" width="54" height="8" rx="3" fill="#065F46"/>
+    <rect x="112" y="-16" width="46" height="22" fill="#78350F" opacity="0.4" rx="2"/>
+    <ellipse cx="130" cy="-28" rx="14" ry="10" fill="#6EE7B7"/>
+    <ellipse cx="140" cy="-32" rx="12" ry="8" fill="#34D399"/>
+    <ellipse cx="135" cy="-36" rx="10" ry="7" fill="#059669"/>
+  </g>
+
+  <!-- Mounting brackets -->
+  <rect x="578" y="115" width="44" height="10" rx="3" fill="#78716C"/>
+  <rect x="578" y="235" width="44" height="10" rx="3" fill="#78716C"/>
+  <rect x="578" y="355" width="44" height="10" rx="3" fill="#78716C"/>
+  <rect x="578" y="475" width="44" height="10" rx="3" fill="#78716C"/>
+
+  <!-- Water drops -->
+  <path d="M350 520 C350 515, 355 510, 355 515 C355 520, 350 525, 350 520Z" fill="#6EE7B7" opacity="0.5"/>
+  <path d="M850 520 C850 515, 855 510, 855 515 C855 520, 850 525, 850 520Z" fill="#6EE7B7" opacity="0.5"/>
+</svg>

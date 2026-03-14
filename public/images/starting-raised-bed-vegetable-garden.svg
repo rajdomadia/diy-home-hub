@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="woodSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="woodFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="bedSoil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="30%" stop-color="#5C2D0E"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg9)"/>
+
+  <!-- Ground -->
+  <path d="M0 520 Q600 500, 1200 520 L1200 630 L0 630Z" fill="#059669" opacity="0.12"/>
+
+  <!-- Raised bed - 3D perspective -->
+  <!-- Front face -->
+  <rect x="220" y="360" width="760" height="140" rx="4" fill="url(#woodFront)"/>
+  <!-- Wood plank lines on front -->
+  <line x1="220" y1="395" x2="980" y2="395" stroke="#92400E" stroke-width="1.5" opacity="0.4"/>
+  <line x1="220" y1="430" x2="980" y2="430" stroke="#92400E" stroke-width="1.5" opacity="0.4"/>
+  <line x1="220" y1="465" x2="980" y2="465" stroke="#92400E" stroke-width="1.5" opacity="0.4"/>
+  <!-- Wood grain texture -->
+  <path d="M300 370 C310 375, 320 370, 330 375" stroke="#92400E" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M500 400 C510 405, 520 400, 530 405" stroke="#92400E" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M700 440 C710 445, 720 440, 730 445" stroke="#92400E" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M400 470 C410 475, 420 470, 430 475" stroke="#92400E" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M800 380 C810 385, 820 380, 830 385" stroke="#92400E" stroke-width="0.8" fill="none" opacity="0.3"/>
+
+  <!-- Right side face (3D) -->
+  <path d="M980 360 L1040 330 L1040 470 L980 500Z" fill="url(#woodSide)"/>
+  <line x1="980" y1="395" x2="1040" y2="365" stroke="#78350F" stroke-width="1" opacity="0.4"/>
+  <line x1="980" y1="430" x2="1040" y2="400" stroke="#78350F" stroke-width="1" opacity="0.4"/>
+  <line x1="980" y1="465" x2="1040" y2="435" stroke="#78350F" stroke-width="1" opacity="0.4"/>
+
+  <!-- Top face (soil visible) -->
+  <path d="M220 360 L280 330 L1040 330 L980 360Z" fill="url(#bedSoil)"/>
+  <!-- Soil texture -->
+  <circle cx="400" cy="345" r="3" fill="#3F2305" opacity="0.3"/>
+  <circle cx="550" cy="340" r="3" fill="#3F2305" opacity="0.3"/>
+  <circle cx="700" cy="348" r="3" fill="#3F2305" opacity="0.3"/>
+  <circle cx="850" cy="342" r="3" fill="#3F2305" opacity="0.3"/>
+
+  <!-- Soil layer visible on side -->
+  <path d="M980 360 L1040 330 L1040 345 L980 375Z" fill="#78350F" opacity="0.4"/>
+
+  <!-- Corner posts -->
+  <rect x="215" y="355" width="16" height="150" rx="3" fill="#78350F"/>
+  <rect x="969" y="355" width="16" height="150" rx="3" fill="#78350F"/>
+
+  <!-- Top rim -->
+  <rect x="218" y="355" width="764" height="10" rx="2" fill="#D97706"/>
+
+  <!-- Plants growing from the bed -->
+
+  <!-- Tomato plant (left area) -->
+  <g transform="translate(320, 355)">
+    <!-- Stake -->
+    <rect x="-3" y="-180" width="6" height="180" rx="2" fill="#A8A29E" opacity="0.6"/>
+    <!-- Stem -->
+    <path d="M0 0 C-5 -40, 5 -80, -3 -120 C-8 -140, 2 -160, 0 -170" stroke="#059669" stroke-width="3.5" fill="none"/>
+    <!-- Leaves -->
+    <ellipse cx="-20" cy="-50" rx="18" ry="10" fill="#34D399" transform="rotate(-20, -20, -50)"/>
+    <ellipse cx="18" cy="-60" rx="16" ry="9" fill="#6EE7B7" transform="rotate(15, 18, -60)"/>
+    <ellipse cx="-18" cy="-90" rx="17" ry="10" fill="#059669" transform="rotate(-15, -18, -90)"/>
+    <ellipse cx="20" cy="-100" rx="15" ry="9" fill="#34D399" transform="rotate(20, 20, -100)"/>
+    <ellipse cx="-15" cy="-130" rx="16" ry="9" fill="#6EE7B7" transform="rotate(-10, -15, -130)"/>
+    <ellipse cx="15" cy="-140" rx="14" ry="8" fill="#059669" transform="rotate(15, 15, -140)"/>
+    <ellipse cx="0" cy="-172" rx="12" ry="7" fill="#34D399"/>
+    <!-- Tomatoes -->
+    <circle cx="15" cy="-70" r="12" fill="#EF4444" opacity="0.9"/>
+    <circle cx="22" cy="-65" r="10" fill="#DC2626" opacity="0.85"/>
+    <circle cx="-12" cy="-110" r="9" fill="#F87171" opacity="0.8"/>
+    <!-- Green tomato -->
+    <circle cx="18" cy="-125" r="8" fill="#34D399" opacity="0.7"/>
+  </g>
+
+  <!-- Lettuce heads (center-left) -->
+  <g transform="translate(480, 350)">
+    <!-- Lettuce 1 -->
+    <ellipse cx="-25" cy="-15" rx="28" ry="16" fill="#34D399"/>
+    <ellipse cx="-30" cy="-25" rx="22" ry="14" fill="#6EE7B7"/>
+    <ellipse cx="-20" cy="-30" rx="18" ry="12" fill="#A7F3D0"/>
+    <ellipse cx="-25" cy="-35" rx="14" ry="10" fill="#D1FAE5"/>
+    <!-- Lettuce 2 -->
+    <ellipse cx="25" cy="-12" rx="25" ry="15" fill="#059669"/>
+    <ellipse cx="20" cy="-22" rx="20" ry="13" fill="#34D399"/>
+    <ellipse cx="28" cy="-28" rx="16" ry="11" fill="#6EE7B7"/>
+    <ellipse cx="24" cy="-33" rx="12" ry="9" fill="#A7F3D0"/>
+  </g>
+
+  <!-- Carrots (center) -->
+  <g transform="translate(630, 348)">
+    <!-- Carrot tops (feathery leaves) -->
+    <line x1="-15" y1="-8" x2="-20" y2="-50" stroke="#059669" stroke-width="2"/>
+    <line x1="-10" y1="-8" x2="-8" y2="-55" stroke="#34D399" stroke-width="2"/>
+    <line x1="-5" y1="-8" x2="-12" y2="-48" stroke="#059669" stroke-width="2"/>
+    <ellipse cx="-20" cy="-50" rx="6" ry="10" fill="#6EE7B7" transform="rotate(-10, -20, -50)"/>
+    <ellipse cx="-8" cy="-55" rx="6" ry="10" fill="#34D399" transform="rotate(5, -8, -55)"/>
+    <ellipse cx="-12" cy="-48" rx="5" ry="9" fill="#059669" transform="rotate(-5, -12, -48)"/>
+
+    <line x1="10" y1="-8" x2="8" y2="-52" stroke="#059669" stroke-width="2"/>
+    <line x1="15" y1="-8" x2="18" y2="-48" stroke="#34D399" stroke-width="2"/>
+    <line x1="20" y1="-8" x2="15" y2="-45" stroke="#059669" stroke-width="2"/>
+    <ellipse cx="8" cy="-52" rx="6" ry="10" fill="#34D399" transform="rotate(-8, 8, -52)"/>
+    <ellipse cx="18" cy="-48" rx="6" ry="10" fill="#6EE7B7" transform="rotate(10, 18, -48)"/>
+    <ellipse cx="15" cy="-45" rx="5" ry="9" fill="#059669" transform="rotate(3, 15, -45)"/>
+
+    <!-- Carrots partially visible above soil -->
+    <path d="M-14 -4 C-16 5, -12 12, -10 5 C-8 -2, -12 -6, -14 -4Z" fill="#F97316" opacity="0.7"/>
+    <path d="M12 -4 C10 5, 14 12, 16 5 C18 -2, 14 -6, 12 -4Z" fill="#FB923C" opacity="0.7"/>
+  </g>
+
+  <!-- Pepper plant (center-right) -->
+  <g transform="translate(780, 355)">
+    <line x1="0" y1="0" x2="0" y2="-110" stroke="#059669" stroke-width="3"/>
+    <line x1="0" y1="-40" x2="-22" y2="-60" stroke="#059669" stroke-width="2"/>
+    <line x1="0" y1="-65" x2="20" y2="-85" stroke="#059669" stroke-width="2"/>
+    <ellipse cx="-22" cy="-62" rx="16" ry="9" fill="#34D399" transform="rotate(-20, -22, -62)"/>
+    <ellipse cx="-30" cy="-55" rx="13" ry="8" fill="#6EE7B7" transform="rotate(-35, -30, -55)"/>
+    <ellipse cx="20" cy="-87" rx="15" ry="9" fill="#059669" transform="rotate(15, 20, -87)"/>
+    <ellipse cx="30" cy="-82" rx="12" ry="7" fill="#34D399" transform="rotate(30, 30, -82)"/>
+    <ellipse cx="5" cy="-112" rx="13" ry="8" fill="#6EE7B7"/>
+    <ellipse cx="-8" cy="-108" rx="11" ry="7" fill="#34D399"/>
+    <!-- Bell pepper -->
+    <path d="M-15 -42 C-20 -35, -18 -25, -12 -22 C-6 -25, -4 -35, -9 -42Z" fill="#EF4444" opacity="0.8"/>
+    <!-- Green pepper -->
+    <path d="M18 -70 C14 -63, 16 -55, 22 -52 C28 -55, 30 -63, 25 -70Z" fill="#059669" opacity="0.7"/>
+  </g>
+
+  <!-- Herbs/small plants (right area) -->
+  <g transform="translate(900, 348)">
+    <!-- Basil-like -->
+    <line x1="0" y1="-5" x2="0" y2="-60" stroke="#059669" stroke-width="2.5"/>
+    <ellipse cx="-12" cy="-30" rx="12" ry="7" fill="#34D399" transform="rotate(-15, -12, -30)"/>
+    <ellipse cx="12" cy="-35" rx="12" ry="7" fill="#6EE7B7" transform="rotate(15, 12, -35)"/>
+    <ellipse cx="-10" cy="-45" rx="10" ry="6" fill="#059669" transform="rotate(-10, -10, -45)"/>
+    <ellipse cx="10" cy="-50" rx="10" ry="6" fill="#34D399" transform="rotate(10, 10, -50)"/>
+    <ellipse cx="0" cy="-60" rx="8" ry="5" fill="#6EE7B7"/>
+  </g>
+
+  <!-- Row markers/labels (small stakes) -->
+  <g transform="translate(400, 352)">
+    <rect x="-2" y="-30" width="4" height="30" rx="1" fill="#D6D3D1"/>
+    <rect x="-8" y="-38" width="16" height="12" rx="2" fill="#ECFDF5"/>
+  </g>
+  <g transform="translate(700, 350)">
+    <rect x="-2" y="-30" width="4" height="30" rx="1" fill="#D6D3D1"/>
+    <rect x="-8" y="-38" width="16" height="12" rx="2" fill="#ECFDF5"/>
+  </g>
+
+  <!-- Shadow under the bed -->
+  <ellipse cx="630" cy="510" rx="420" ry="15" fill="#065F46" opacity="0.1"/>
+
+  <!-- Small decorative elements -->
+  <!-- Watering can nearby -->
+  <g transform="translate(160, 470)">
+    <ellipse cx="0" cy="15" rx="22" ry="18" fill="#6EE7B7" opacity="0.7"/>
+    <rect x="-20" y="0" width="40" height="18" rx="8" fill="#34D399" opacity="0.7"/>
+    <rect x="18" y="4" width="25" height="4" rx="2" fill="#34D399" opacity="0.7"/>
+    <circle cx="43" cy="6" r="3" fill="#34D399" opacity="0.7"/>
+    <path d="M-10 0 C-10 -10, 10 -10, 10 0" stroke="#34D399" stroke-width="3.5" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- Garden tool -->
+  <g transform="translate(1080, 440) rotate(15)">
+    <rect x="-3" y="0" width="6" height="60" rx="3" fill="#D97706" opacity="0.6"/>
+    <path d="M-8 -2 L0 -25 L8 -2Z" fill="#A8A29E" opacity="0.6"/>
+  </g>
+</svg>

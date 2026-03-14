@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="reclaimedWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#92400E"/>
+      <stop offset="20%" stop-color="#B45309"/>
+      <stop offset="40%" stop-color="#92400E"/>
+      <stop offset="60%" stop-color="#D97706"/>
+      <stop offset="80%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Wall -->
+  <rect x="200" y="50" width="800" height="530" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2" rx="4"/>
+  <!-- Floating shelf -->
+  <g transform="translate(300, 250)">
+    <!-- Shelf top surface -->
+    <rect x="0" y="0" width="500" height="25" rx="3" fill="url(#reclaimedWood)"/>
+    <!-- Wood grain lines -->
+    <line x1="20" y1="5" x2="80" y2="5" stroke="#92400E" stroke-width="0.5" opacity="0.5"/>
+    <line x1="100" y1="12" x2="200" y2="12" stroke="#92400E" stroke-width="0.5" opacity="0.4"/>
+    <line x1="230" y1="8" x2="320" y2="8" stroke="#92400E" stroke-width="0.5" opacity="0.5"/>
+    <line x1="350" y1="15" x2="450" y2="15" stroke="#92400E" stroke-width="0.5" opacity="0.4"/>
+    <line x1="50" y1="18" x2="150" y2="18" stroke="#92400E" stroke-width="0.5" opacity="0.3"/>
+    <!-- Shelf front edge -->
+    <rect x="0" y="22" width="500" height="10" rx="2" fill="#92400E"/>
+    <!-- Knot holes in wood -->
+    <circle cx="150" cy="12" r="6" fill="#92400E" opacity="0.4"/>
+    <circle cx="380" cy="10" r="4" fill="#92400E" opacity="0.35"/>
+  </g>
+  <!-- Books on shelf -->
+  <g transform="translate(330, 170)">
+    <!-- Book 1 -->
+    <rect x="0" y="0" width="28" height="80" rx="2" fill="#92400E"/>
+    <rect x="3" y="5" width="22" height="70" fill="#B45309"/>
+    <rect x="8" y="15" width="12" height="3" fill="#FCD34D" opacity="0.6"/>
+    <!-- Book 2 -->
+    <rect x="32" y="10" width="24" height="70" rx="2" fill="#D97706"/>
+    <rect x="35" y="15" width="18" height="60" fill="#F59E0B"/>
+    <rect x="38" y="25" width="12" height="3" fill="#92400E" opacity="0.5"/>
+    <!-- Book 3 -->
+    <rect x="60" y="5" width="30" height="75" rx="2" fill="#FCD34D"/>
+    <rect x="63" y="10" width="24" height="65" fill="#FDE68A"/>
+    <rect x="68" y="20" width="14" height="3" fill="#D97706" opacity="0.6"/>
+    <!-- Book 4 (leaning) -->
+    <rect x="95" y="15" width="22" height="65" rx="2" fill="#92400E" opacity="0.8" transform="rotate(10 106 47)"/>
+    <!-- Book 5 -->
+    <rect x="118" y="20" width="26" height="60" rx="2" fill="#B45309"/>
+    <rect x="121" y="25" width="20" height="50" fill="#D97706" opacity="0.7"/>
+  </g>
+  <!-- Small plant on shelf -->
+  <g transform="translate(620, 190)">
+    <!-- Pot -->
+    <path d="M-18 60 L-22 20 L22 20 L18 60 Z" fill="#D97706"/>
+    <rect x="-24" y="15" width="48" height="10" rx="3" fill="#B45309"/>
+    <!-- Soil -->
+    <ellipse cx="0" cy="20" rx="18" ry="4" fill="#92400E" opacity="0.6"/>
+    <!-- Plant - small succulent -->
+    <ellipse cx="-8" cy="8" rx="10" ry="14" fill="#10B981" transform="rotate(-20 -8 8)"/>
+    <ellipse cx="8" cy="6" rx="9" ry="13" fill="#34D399" transform="rotate(15 8 6)"/>
+    <ellipse cx="0" cy="4" rx="8" ry="15" fill="#059669"/>
+    <ellipse cx="-15" cy="12" rx="7" ry="10" fill="#10B981" transform="rotate(-35 -15 12)"/>
+    <ellipse cx="14" cy="10" rx="7" ry="11" fill="#34D399" transform="rotate(25 14 10)"/>
+  </g>
+  <!-- Small decorative frame on shelf -->
+  <g transform="translate(540, 195)">
+    <rect x="0" y="0" width="40" height="55" rx="2" fill="#92400E" stroke="#B45309" stroke-width="2"/>
+    <rect x="5" y="5" width="30" height="45" fill="#FCD34D" opacity="0.3"/>
+    <!-- Simple mountain scene in frame -->
+    <polygon points="10,45 20,20 30,45" fill="#D97706" opacity="0.5"/>
+    <polygon points="18,45 28,25 38,45" fill="#92400E" opacity="0.3"/>
+    <circle cx="30" cy="15" r="4" fill="#FCD34D" opacity="0.6"/>
+  </g>
+  <!-- Wall mounting hardware hints (bracket shadows) -->
+  <rect x="380" y="275" width="4" height="15" fill="#92400E" opacity="0.15"/>
+  <rect x="700" y="275" width="4" height="15" fill="#92400E" opacity="0.15"/>
+  <!-- Second smaller shelf below (empty, shows the floating effect) -->
+  <g transform="translate(350, 420)">
+    <rect x="0" y="0" width="400" height="20" rx="3" fill="url(#reclaimedWood)" opacity="0.7"/>
+    <rect x="0" y="18" width="400" height="8" rx="2" fill="#92400E" opacity="0.7"/>
+    <!-- Small candle on lower shelf -->
+    <rect x="170" y="-25" width="20" height="25" rx="4" fill="#FCD34D"/>
+    <ellipse cx="180" cy="-25" rx="10" ry="3" fill="#FDE68A"/>
+    <!-- Flame -->
+    <ellipse cx="180" cy="-32" rx="4" ry="7" fill="#F59E0B" opacity="0.8"/>
+    <ellipse cx="180" cy="-34" rx="2" ry="4" fill="#FCD34D"/>
+  </g>
+</svg>

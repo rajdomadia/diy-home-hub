@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="60%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FECDD3"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#C4956A"/>
+      <stop offset="30%" stop-color="#B8845A"/>
+      <stop offset="60%" stop-color="#D4A574"/>
+      <stop offset="100%" stop-color="#A67B5B"/>
+    </linearGradient>
+    <linearGradient id="woodDark" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#8B6914"/>
+      <stop offset="50%" stop-color="#A67B5B"/>
+      <stop offset="100%" stop-color="#8B6F47"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDA4AF"/>
+      <stop offset="60%" stop-color="#FFE4E6"/>
+      <stop offset="100%" stop-color="#FFF1F2"/>
+    </linearGradient>
+    <linearGradient id="mountain1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9F1239"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9F1239" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#9F1239" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Subtle background shapes -->
+  <circle cx="180" cy="520" r="100" fill="#FECDD3" opacity="0.3"/>
+  <circle cx="1050" cy="120" r="70" fill="#FDA4AF" opacity="0.15"/>
+  <!-- Frame shadow -->
+  <rect x="318" y="88" width="570" height="470" rx="4" fill="#9F1239" opacity="0.1"/>
+  <!-- Outer frame -->
+  <rect x="310" y="80" width="570" height="470" rx="3" fill="url(#wood)" stroke="#8B6F47" stroke-width="2"/>
+  <!-- Wood grain lines on frame -->
+  <!-- Top -->
+  <line x1="320" y1="95" x2="870" y2="95" stroke="#C4956A" stroke-width="1" opacity="0.4"/>
+  <line x1="315" y1="105" x2="875" y2="105" stroke="#D4A574" stroke-width="0.8" opacity="0.3"/>
+  <!-- Bottom -->
+  <line x1="320" y1="535" x2="870" y2="535" stroke="#C4956A" stroke-width="1" opacity="0.4"/>
+  <line x1="315" y1="525" x2="875" y2="525" stroke="#D4A574" stroke-width="0.8" opacity="0.3"/>
+  <!-- Left -->
+  <line x1="325" y1="85" x2="325" y2="545" stroke="#C4956A" stroke-width="1" opacity="0.3"/>
+  <line x1="335" y1="85" x2="335" y2="545" stroke="#D4A574" stroke-width="0.8" opacity="0.25"/>
+  <!-- Right -->
+  <line x1="865" y1="85" x2="865" y2="545" stroke="#C4956A" stroke-width="1" opacity="0.3"/>
+  <line x1="855" y1="85" x2="855" y2="545" stroke="#D4A574" stroke-width="0.8" opacity="0.25"/>
+  <!-- Inner frame border -->
+  <rect x="360" y="130" width="470" height="370" rx="2" fill="none" stroke="#8B6F47" stroke-width="3"/>
+  <!-- Picture area - sky -->
+  <rect x="362" y="132" width="466" height="366" fill="url(#sky)"/>
+  <!-- Sun -->
+  <circle cx="700" cy="200" r="45" fill="#FFF1F2" opacity="0.9"/>
+  <circle cx="700" cy="200" r="35" fill="#FECDD3"/>
+  <!-- Sun rays -->
+  <line x1="700" y1="145" x2="700" y2="155" stroke="#FDA4AF" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="700" y1="245" x2="700" y2="255" stroke="#FDA4AF" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="645" y1="200" x2="655" y2="200" stroke="#FDA4AF" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="745" y1="200" x2="755" y2="200" stroke="#FDA4AF" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <!-- Back mountains -->
+  <polygon points="362,498 450,280 540,498" fill="url(#mountain1)" opacity="0.7"/>
+  <polygon points="500,498 620,250 740,498" fill="url(#mountain1)"/>
+  <polygon points="650,498 780,300 828,498" fill="#9F1239" opacity="0.8"/>
+  <!-- Snow caps -->
+  <polygon points="620,250 600,290 640,290" fill="#FFF1F2" opacity="0.6"/>
+  <polygon points="450,280 435,310 465,310" fill="#FFF1F2" opacity="0.5"/>
+  <!-- Front mountains -->
+  <polygon points="362,498 480,320 600,498" fill="url(#mountain2)" opacity="0.8"/>
+  <polygon points="550,498 700,340 828,498" fill="#FB7185" opacity="0.9"/>
+  <!-- Rolling hills -->
+  <ellipse cx="500" cy="498" rx="250" ry="40" fill="#FDA4AF" opacity="0.5"/>
+  <ellipse cx="700" cy="498" rx="200" ry="30" fill="#FFE4E6" opacity="0.6"/>
+  <!-- Corner brackets on frame -->
+  <path d="M370 140 L370 145 L375 145" stroke="#D4A574" stroke-width="2" fill="none"/>
+  <path d="M820 140 L820 145 L815 145" stroke="#D4A574" stroke-width="2" fill="none"/>
+  <path d="M370 488 L370 483 L375 483" stroke="#D4A574" stroke-width="2" fill="none"/>
+  <path d="M820 488 L820 483 L815 483" stroke="#D4A574" stroke-width="2" fill="none"/>
+  <!-- Nail holes in corners -->
+  <circle cx="335" cy="105" r="3" fill="#8B6F47" opacity="0.4"/>
+  <circle cx="855" cy="105" r="3" fill="#8B6F47" opacity="0.4"/>
+  <circle cx="335" cy="525" r="3" fill="#8B6F47" opacity="0.4"/>
+  <circle cx="855" cy="525" r="3" fill="#8B6F47" opacity="0.4"/>
+</svg>

@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="60%" stop-color="#D1FAE5"/>
+      <stop offset="100%" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <radialGradient id="sunflowerCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg3)"/>
+  <!-- Ground -->
+  <path d="M0 520 Q300 490, 600 510 Q900 530, 1200 505 L1200 630 L0 630Z" fill="#059669" opacity="0.2"/>
+  <path d="M0 540 Q300 520, 600 530 Q900 545, 1200 525 L1200 630 L0 630Z" fill="#065F46" opacity="0.15"/>
+
+  <!-- Sunflower 1 (large, center-left) -->
+  <line x1="380" y1="340" x2="380" y2="530" stroke="#059669" stroke-width="6"/>
+  <!-- Leaves on stem -->
+  <ellipse cx="370" cy="430" rx="30" ry="12" fill="#059669" transform="rotate(-30, 370, 430)"/>
+  <ellipse cx="395" cy="470" rx="25" ry="10" fill="#34D399" transform="rotate(25, 395, 470)"/>
+  <!-- Petals -->
+  <g transform="translate(380, 310)">
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(30)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FBBF24" transform="rotate(150)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FBBF24" transform="rotate(210)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FBBF24" transform="rotate(300)"/>
+    <ellipse cx="0" cy="-35" rx="10" ry="20" fill="#FCD34D" transform="rotate(330)"/>
+    <circle cx="0" cy="0" r="22" fill="url(#sunflowerCenter)"/>
+    <!-- Seed pattern -->
+    <circle cx="-5" cy="-5" r="2" fill="#451A03" opacity="0.5"/>
+    <circle cx="5" cy="-5" r="2" fill="#451A03" opacity="0.5"/>
+    <circle cx="0" cy="5" r="2" fill="#451A03" opacity="0.5"/>
+    <circle cx="-8" cy="3" r="2" fill="#451A03" opacity="0.5"/>
+    <circle cx="8" cy="3" r="2" fill="#451A03" opacity="0.5"/>
+    <circle cx="0" cy="-10" r="2" fill="#451A03" opacity="0.5"/>
+  </g>
+
+  <!-- Sunflower 2 (smaller, behind) -->
+  <line x1="480" y1="300" x2="480" y2="520" stroke="#047857" stroke-width="5"/>
+  <ellipse cx="490" cy="400" rx="22" ry="9" fill="#059669" transform="rotate(20, 490, 400)"/>
+  <g transform="translate(480, 275)">
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D" transform="rotate(36)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FBBF24" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D" transform="rotate(108)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FBBF24" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D" transform="rotate(252)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FBBF24" transform="rotate(288)"/>
+    <ellipse cx="0" cy="-28" rx="8" ry="16" fill="#FCD34D" transform="rotate(324)"/>
+    <circle cx="0" cy="0" r="16" fill="url(#sunflowerCenter)"/>
+  </g>
+
+  <!-- Lavender stalks (right side) -->
+  <!-- Stalk 1 -->
+  <line x1="720" y1="360" x2="720" y2="530" stroke="#059669" stroke-width="3"/>
+  <ellipse cx="720" cy="345" rx="10" ry="18" fill="#8B5CF6" opacity="0.8"/>
+  <ellipse cx="720" cy="330" rx="8" ry="14" fill="#A78BFA" opacity="0.8"/>
+  <ellipse cx="720" cy="318" rx="6" ry="10" fill="#C4B5FD" opacity="0.8"/>
+  <ellipse cx="710" cy="440" rx="18" ry="7" fill="#059669" transform="rotate(-20, 710, 440)"/>
+  <!-- Stalk 2 -->
+  <line x1="760" y1="340" x2="760" y2="525" stroke="#059669" stroke-width="3"/>
+  <ellipse cx="760" cy="325" rx="10" ry="18" fill="#7C3AED" opacity="0.8"/>
+  <ellipse cx="760" cy="310" rx="8" ry="14" fill="#8B5CF6" opacity="0.8"/>
+  <ellipse cx="760" cy="298" rx="6" ry="10" fill="#A78BFA" opacity="0.8"/>
+  <ellipse cx="770" cy="420" rx="16" ry="6" fill="#34D399" transform="rotate(15, 770, 420)"/>
+  <!-- Stalk 3 -->
+  <line x1="800" y1="355" x2="800" y2="528" stroke="#047857" stroke-width="3"/>
+  <ellipse cx="800" cy="340" rx="10" ry="18" fill="#8B5CF6" opacity="0.8"/>
+  <ellipse cx="800" cy="325" rx="8" ry="14" fill="#A78BFA" opacity="0.8"/>
+  <ellipse cx="800" cy="313" rx="6" ry="10" fill="#C4B5FD" opacity="0.8"/>
+  <!-- Stalk 4 -->
+  <line x1="840" y1="365" x2="840" y2="530" stroke="#059669" stroke-width="3"/>
+  <ellipse cx="840" cy="350" rx="9" ry="16" fill="#7C3AED" opacity="0.8"/>
+  <ellipse cx="840" cy="337" rx="7" ry="12" fill="#8B5CF6" opacity="0.8"/>
+  <ellipse cx="840" cy="327" rx="5" ry="8" fill="#A78BFA" opacity="0.8"/>
+
+  <!-- Small pink flowers (ground cover) -->
+  <circle cx="550" cy="510" r="8" fill="#F9A8D4" opacity="0.8"/>
+  <circle cx="550" cy="510" r="4" fill="#FDE68A"/>
+  <circle cx="580" cy="520" r="7" fill="#FBCFE8" opacity="0.8"/>
+  <circle cx="580" cy="520" r="3" fill="#FDE68A"/>
+  <circle cx="620" cy="505" r="9" fill="#F9A8D4" opacity="0.8"/>
+  <circle cx="620" cy="505" r="4" fill="#FDE68A"/>
+  <line x1="550" y1="518" x2="550" y2="540" stroke="#059669" stroke-width="2"/>
+  <line x1="580" y1="527" x2="580" y2="545" stroke="#059669" stroke-width="2"/>
+  <line x1="620" y1="514" x2="620" y2="540" stroke="#059669" stroke-width="2"/>
+
+  <!-- Bee 1 (near sunflower) -->
+  <g transform="translate(430, 260)">
+    <!-- Wings -->
+    <ellipse cx="-8" cy="-10" rx="12" ry="8" fill="#ECFDF5" opacity="0.7"/>
+    <ellipse cx="8" cy="-10" rx="12" ry="8" fill="#ECFDF5" opacity="0.7"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="10" ry="14" fill="#FCD34D" transform="rotate(15)"/>
+    <!-- Stripes -->
+    <rect x="-9" y="-4" width="18" height="4" rx="2" fill="#1C1917" transform="rotate(15)"/>
+    <rect x="-8" y="4" width="16" height="4" rx="2" fill="#1C1917" transform="rotate(15)"/>
+    <!-- Head -->
+    <circle cx="-4" cy="-12" r="5" fill="#1C1917"/>
+    <!-- Antennae -->
+    <line x1="-7" y1="-16" x2="-12" y2="-22" stroke="#1C1917" stroke-width="1.5"/>
+    <line x1="-1" y1="-16" x2="2" y2="-23" stroke="#1C1917" stroke-width="1.5"/>
+    <circle cx="-12" cy="-22" r="1.5" fill="#1C1917"/>
+    <circle cx="2" cy="-23" r="1.5" fill="#1C1917"/>
+  </g>
+
+  <!-- Bee 2 (near lavender) -->
+  <g transform="translate(700, 280) scale(0.9)">
+    <ellipse cx="-8" cy="-10" rx="12" ry="8" fill="#ECFDF5" opacity="0.7"/>
+    <ellipse cx="8" cy="-10" rx="12" ry="8" fill="#ECFDF5" opacity="0.7"/>
+    <ellipse cx="0" cy="0" rx="10" ry="14" fill="#FCD34D" transform="rotate(-10)"/>
+    <rect x="-9" y="-4" width="18" height="4" rx="2" fill="#1C1917" transform="rotate(-10)"/>
+    <rect x="-8" y="4" width="16" height="4" rx="2" fill="#1C1917" transform="rotate(-10)"/>
+    <circle cx="3" cy="-12" r="5" fill="#1C1917"/>
+    <line x1="0" y1="-16" x2="-4" y2="-23" stroke="#1C1917" stroke-width="1.5"/>
+    <line x1="6" y1="-16" x2="10" y2="-22" stroke="#1C1917" stroke-width="1.5"/>
+    <circle cx="-4" cy="-23" r="1.5" fill="#1C1917"/>
+    <circle cx="10" cy="-22" r="1.5" fill="#1C1917"/>
+  </g>
+
+  <!-- Bee 3 (top) -->
+  <g transform="translate(580, 180) scale(0.8)">
+    <ellipse cx="-8" cy="-10" rx="12" ry="8" fill="#ECFDF5" opacity="0.7"/>
+    <ellipse cx="8" cy="-10" rx="12" ry="8" fill="#ECFDF5" opacity="0.7"/>
+    <ellipse cx="0" cy="0" rx="10" ry="14" fill="#FCD34D"/>
+    <rect x="-9" y="-4" width="18" height="4" rx="2" fill="#1C1917"/>
+    <rect x="-8" y="4" width="16" height="4" rx="2" fill="#1C1917"/>
+    <circle cx="0" cy="-12" r="5" fill="#1C1917"/>
+    <line x1="-3" y1="-16" x2="-8" y2="-23" stroke="#1C1917" stroke-width="1.5"/>
+    <line x1="3" y1="-16" x2="8" y2="-22" stroke="#1C1917" stroke-width="1.5"/>
+    <circle cx="-8" cy="-23" r="1.5" fill="#1C1917"/>
+    <circle cx="8" cy="-22" r="1.5" fill="#1C1917"/>
+  </g>
+
+  <!-- Butterfly (right area) -->
+  <g transform="translate(900, 240)">
+    <!-- Left wing -->
+    <path d="M0 0 C-30 -25, -45 -15, -35 5 C-45 15, -30 30, 0 10Z" fill="#F472B6" opacity="0.85"/>
+    <path d="M0 0 C-25 -20, -35 -12, -28 3" fill="#EC4899" opacity="0.3"/>
+    <!-- Right wing -->
+    <path d="M0 0 C30 -25, 45 -15, 35 5 C45 15, 30 30, 0 10Z" fill="#F472B6" opacity="0.85"/>
+    <path d="M0 0 C25 -20, 35 -12, 28 3" fill="#EC4899" opacity="0.3"/>
+    <!-- Wing spots -->
+    <circle cx="-22" cy="-5" r="5" fill="#FDE68A" opacity="0.6"/>
+    <circle cx="-18" cy="12" r="4" fill="#ECFDF5" opacity="0.5"/>
+    <circle cx="22" cy="-5" r="5" fill="#FDE68A" opacity="0.6"/>
+    <circle cx="18" cy="12" r="4" fill="#ECFDF5" opacity="0.5"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="5" rx="3" ry="15" fill="#1C1917"/>
+    <!-- Antennae -->
+    <line x1="-2" y1="-8" x2="-10" y2="-22" stroke="#1C1917" stroke-width="1.5"/>
+    <line x1="2" y1="-8" x2="10" y2="-22" stroke="#1C1917" stroke-width="1.5"/>
+    <circle cx="-10" cy="-22" r="2" fill="#1C1917"/>
+    <circle cx="10" cy="-22" r="2" fill="#1C1917"/>
+  </g>
+
+  <!-- Flight path dots for bees -->
+  <circle cx="445" cy="245" r="2" fill="#059669" opacity="0.2"/>
+  <circle cx="460" cy="235" r="2" fill="#059669" opacity="0.15"/>
+  <circle cx="475" cy="228" r="2" fill="#059669" opacity="0.1"/>
+  <!-- Grass tufts -->
+  <path d="M150 540 C155 510, 160 515, 165 540" stroke="#34D399" stroke-width="2" fill="none"/>
+  <path d="M160 540 C165 515, 170 520, 175 540" stroke="#059669" stroke-width="2" fill="none"/>
+  <path d="M1020 535 C1025 505, 1030 510, 1035 535" stroke="#34D399" stroke-width="2" fill="none"/>
+  <path d="M1030 535 C1035 510, 1040 515, 1045 535" stroke="#059669" stroke-width="2" fill="none"/>
+</svg>
